@@ -6,3 +6,8 @@ work/
 *.pt
 *.safetensors
 .DS_Store
+
+# Windows / .NET build products
+**/bin/
+**/obj/
+.vs/
