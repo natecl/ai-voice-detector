@@ -113,7 +113,9 @@ float decoding, non-finite samples, meter levels, chunk boundaries, reset,
 local HTTP contracts, error handling, and cancellation. The Windows CI workflow
 builds/publishes a self-contained x64 folder, launches a no-capture WPF startup
 smoke check on Windows, and uploads the app as an artifact. This
-artifact contains the widget, not the Python environment/model/repository.
+artifact contains the widget, not the Python environment/model/repository. A
+separate Windows job runs the actual setup script and Python unit tests without
+downloading model weights.
 
 Compilation and core tests can run on macOS with Windows targeting enabled.
 They do **not** prove native window behavior, DPI behavior, output-device capture,

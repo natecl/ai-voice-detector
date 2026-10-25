@@ -2,9 +2,9 @@ name: Windows companion
 on:
   push:
     branches: [main, Nathan]
-    paths: ['desktop/windows/**', 'scripts/*windows.ps1', '.github/workflows/windows.yml']
+    paths: ['desktop/windows/**', 'scripts/*windows.ps1', 'app.py', 'detector.py', 'requirements*', 'tests/**', '.github/workflows/windows.yml']
   pull_request:
-    paths: ['desktop/windows/**', 'scripts/*windows.ps1', '.github/workflows/windows.yml']
+    paths: ['desktop/windows/**', 'scripts/*windows.ps1', 'app.py', 'detector.py', 'requirements*', 'tests/**', '.github/workflows/windows.yml']
   workflow_dispatch:
 permissions:
   contents: read
@@ -42,3 +42,24 @@ jobs:
           name: VoiceCheck-windows-x64
           path: work/windows-win-x64/
           if-no-files-found: error
+  python-backend:
+    runs-on: windows-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install setup tools
+        shell: pwsh
+        run: |
+          python -m pip install uv
+          if ($LASTEXITCODE -ne 0) { throw 'uv installation failed.' }
+          choco install ffmpeg --yes --no-progress
+          if ($LASTEXITCODE -ne 0) { throw 'ffmpeg installation failed.' }
+      - name: Validate Windows Python setup script
+        shell: pwsh
+        run: ./scripts/setup_windows.ps1
+      - name: Backend and detector unit tests (no model download)
+        shell: pwsh
+        run: ./.venv/Scripts/python.exe -m pytest -q
