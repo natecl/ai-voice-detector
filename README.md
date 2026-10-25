@@ -1,13 +1,27 @@
 # Voice Check — AI Voice Detector
 
-A local macOS voice companion: **system audio → Forensics 0.3B → Human / AI
+A local voice companion for macOS and Windows: **system audio → Forensics 0.3B → Human / AI
 prediction**. The desktop pill has an audio-reactive waveform and a separate
 verdict badge. A browser app also supports audio uploads and microphone samples.
 
 **For agents taking over the project:** read [the operator and knowledge guide](docs/AGENT_GUIDE.md).
 It covers controls, architecture, setup, local API, verification, and known issues.
 
-## Desktop pill
+## Windows
+
+The native Windows pill uses WASAPI system-audio capture with the same local
+Python detector. From a Windows checkout, run in PowerShell:
+
+```powershell
+.\scripts\setup_windows.ps1
+.\scripts\start_windows.ps1
+```
+
+See [Windows setup and controls](docs/WINDOWS.md) for prerequisites, output-device
+selection, builds, and validation limits. The Windows implementation compiles and
+has automated audio/API tests; live capture still needs a Windows hardware test.
+
+## macOS desktop pill
 
 Open the existing `Voice Check.app` in the checkout's sibling `outputs/` folder.
 Click the pill to start system listening, and click again to stop. Escape stops

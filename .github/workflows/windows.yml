@@ -1,0 +1,44 @@
+name: Windows companion
+on:
+  push:
+    branches: [main, Nathan]
+    paths: ['desktop/windows/**', 'scripts/*windows.ps1', '.github/workflows/windows.yml']
+  pull_request:
+    paths: ['desktop/windows/**', 'scripts/*windows.ps1', '.github/workflows/windows.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+      - name: Audio and detector-contract checks
+        run: dotnet run --project desktop/windows/VoiceCheck.Core.Tests -c Release
+      - name: Build and publish Windows x64 app
+        shell: pwsh
+        run: ./scripts/build_windows.ps1 -Runtime win-x64
+      - name: Native WPF startup smoke check (no audio device required)
+        shell: pwsh
+        timeout-minutes: 1
+        run: |
+          $exe = Join-Path $PWD 'work/windows-win-x64/VoiceCheck.exe'
+          $app = Start-Process -FilePath $exe -ArgumentList @('--project', "`"$PWD`"", '--smoke-test') -PassThru
+          if (-not $app.WaitForExit(20000)) { $app.Kill(); throw 'Native startup smoke check timed out.' }
+          if ($app.ExitCode -ne 0) { throw "Native startup failed: $($app.ExitCode)" }
+      - name: Parse launch scripts
+        shell: pwsh
+        run: |
+          foreach ($script in Get-ChildItem scripts/*windows.ps1) {
+            $parseErrors = $null
+            [System.Management.Automation.Language.Parser]::ParseFile($script.FullName, [ref]$null, [ref]$parseErrors) | Out-Null
+            if ($parseErrors.Count) { throw ($parseErrors | Out-String) }
+          }
+      - uses: actions/upload-artifact@v4
+        with:
+          name: VoiceCheck-windows-x64
+          path: work/windows-win-x64/
+          if-no-files-found: error

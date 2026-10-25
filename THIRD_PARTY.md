@@ -42,3 +42,11 @@ state-dictionary matching, rather than downloading a second set of base weights.
 Prototype changes: input validation and crop metadata, CPU feature extraction
 for MPS compatibility, pinned configuration, weights-only loading, JSON output,
 timing, and a reusable prediction function. We did not train this detector.
+
+## Windows audio capture
+
+The Windows companion references `NAudio.Wasapi` 2.2.1 (and its NuGet
+dependencies), distributed under the MIT license. Source and license:
+https://github.com/naudio/NAudio/tree/v2.2.1 and
+https://github.com/naudio/NAudio/blob/v2.2.1/license.txt.
+Packages are restored by NuGet; no NAudio source is vendored here.

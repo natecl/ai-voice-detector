@@ -2,14 +2,20 @@
 
 This is the operating guide for another agent taking over this project. “Voice
 companion,” “Voice Check,” “widget,” and “pill” refer to this app. It predicts
-whether speech resembles human or synthetic audio, locally on a Mac.
+whether speech resembles human or synthetic audio locally.
+
+For the Windows companion, read [WINDOWS.md](WINDOWS.md). Its WPF/WASAPI
+implementation uses the same backend. The Mac-specific launch, build, and privacy
+steps below apply only to macOS. Windows hardware acceptance is still required.
 
 Read this guide and `README.md` before operating or modifying the app. These
 instructions describe the current implementation, not a planned product.
 
 ## 1. Product and current scope
 
-- **Desktop companion:** a floating, draggable macOS pill that listens to system
+- **Windows companion:** native WPF pill, WASAPI loopback, tray output selection,
+  and saved positioning; see `docs/WINDOWS.md` for setup and validation status.
+- **macOS desktop companion:** a floating, draggable macOS pill that listens to system
   playback and displays a separate Human / AI / Waiting badge to its right.
 - **Browser app:** upload an audio file or record a microphone sample and analyze
   it. Open `http://127.0.0.1:8765` after starting the backend.
@@ -246,6 +252,8 @@ was not performed; the user chose Chatterbox only. Do not claim ElevenLabs QA.
 
 | File | Responsibility |
 | --- | --- |
+| `desktop/windows/` | Windows WPF overlay, WASAPI adapter, shared audio/API core, and core checks. |
+| `scripts/*windows.ps1` | Windows setup, self-contained publish, and launch. |
 | `desktop/main.swift` | AppKit panel, drag tracking, position preferences, menu, backend lifecycle, trusted WKWebView bridge. |
 | `desktop/SystemAudioCapture.swift` | ScreenCaptureKit audio, 16 kHz mono buffers, RMS levels, five-second WAVs, local requests, stale-session protection. |
 | `ui/index.html` | Browser upload/record UI, pill styles, waveform rendering, right badge, event handling. |
