@@ -1,0 +1,3706 @@
+[
+  {
+    "file": "work/qa/audio/05aab50649dd5fa23b36f95357996ccedbd0226fea4757ebbafed539cecdb968.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "AudioGen",
+    "source_path": "AudioGen/30.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "05aab50649dd5fa23b36f95357996ccedbd0226fea4757ebbafed539cecdb968",
+    "notes": {
+      "utterance_id": "SONAR_AudioGen_30",
+      "system": "AudioGen",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/d8158a8bbab3fa8663b10466980b054474ab58e7287ee48fc8165447bd3e47f6.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "AudioGen",
+    "source_path": "AudioGen/11.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "d8158a8bbab3fa8663b10466980b054474ab58e7287ee48fc8165447bd3e47f6",
+    "notes": {
+      "utterance_id": "SONAR_AudioGen_11",
+      "system": "AudioGen",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/b11f10dfcfee3c64f5f8a0b976c109b7adddb8c802164a3e5d84731c2ee9888b.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "AudioGen",
+    "source_path": "AudioGen/0.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "b11f10dfcfee3c64f5f8a0b976c109b7adddb8c802164a3e5d84731c2ee9888b",
+    "notes": {
+      "utterance_id": "SONAR_AudioGen_0",
+      "system": "AudioGen",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/2bb5020f6517865098d0c512f1fed367650e9beafeff1dfc9235ff50cb78f222.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "AudioGen",
+    "source_path": "AudioGen/3.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "2bb5020f6517865098d0c512f1fed367650e9beafeff1dfc9235ff50cb78f222",
+    "notes": {
+      "utterance_id": "SONAR_AudioGen_3",
+      "system": "AudioGen",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/c08a729c03a385f7b78ef635fc65d77d44ec3b4081a69be6c1e801f74b4b2860.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "AudioGen",
+    "source_path": "AudioGen/65.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "c08a729c03a385f7b78ef635fc65d77d44ec3b4081a69be6c1e801f74b4b2860",
+    "notes": {
+      "utterance_id": "SONAR_AudioGen_65",
+      "system": "AudioGen",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/3d63c118b72922d9680923c3ea4aaa6c451c68016ad5e9b8d32d0478d6ef67c1.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "AudioGen",
+    "source_path": "AudioGen/37.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "3d63c118b72922d9680923c3ea4aaa6c451c68016ad5e9b8d32d0478d6ef67c1",
+    "notes": {
+      "utterance_id": "SONAR_AudioGen_37",
+      "system": "AudioGen",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/8619070c6a10e30e6b2026f78b438f1bdfb9e581d699c4402b00582df2afe351.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "AudioGen",
+    "source_path": "AudioGen/78.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "8619070c6a10e30e6b2026f78b438f1bdfb9e581d699c4402b00582df2afe351",
+    "notes": {
+      "utterance_id": "SONAR_AudioGen_78",
+      "system": "AudioGen",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/e72e8a83a3b4077eb01078b31cc9c8b68bc7253285e99c6bac3480e0296d3ab5.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "AudioGen",
+    "source_path": "AudioGen/9.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "e72e8a83a3b4077eb01078b31cc9c8b68bc7253285e99c6bac3480e0296d3ab5",
+    "notes": {
+      "utterance_id": "SONAR_AudioGen_9",
+      "system": "AudioGen",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/c68c82d186f204c7131003553800c69f97db4f4f8b68ffc40101306c8b40359e.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "AudioGen",
+    "source_path": "AudioGen/79.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "c68c82d186f204c7131003553800c69f97db4f4f8b68ffc40101306c8b40359e",
+    "notes": {
+      "utterance_id": "SONAR_AudioGen_79",
+      "system": "AudioGen",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/9f9566a529102ada4330c0b9ab28160ae91c5c8bfa865f561f8b4c7fcef2bc98.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "AudioGen",
+    "source_path": "AudioGen/51.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "9f9566a529102ada4330c0b9ab28160ae91c5c8bfa865f561f8b4c7fcef2bc98",
+    "notes": {
+      "utterance_id": "SONAR_AudioGen_51",
+      "system": "AudioGen",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/0825c0b61ede782019747db55d5446cafb5f517ce139b83c61f59477d1fcf33b.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "AudioGen",
+    "source_path": "AudioGen/28.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "0825c0b61ede782019747db55d5446cafb5f517ce139b83c61f59477d1fcf33b",
+    "notes": {
+      "utterance_id": "SONAR_AudioGen_28",
+      "system": "AudioGen",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/aee46a206a60e550bb4ff00aadd578da13801ae519035bbd05d489a81266062f.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "AudioGen",
+    "source_path": "AudioGen/48.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "aee46a206a60e550bb4ff00aadd578da13801ae519035bbd05d489a81266062f",
+    "notes": {
+      "utterance_id": "SONAR_AudioGen_48",
+      "system": "AudioGen",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/dec6d798aec790bbcb024015e0f2e648f07e121899b3f210fa185aac7b19ff16.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "AudioGen",
+    "source_path": "AudioGen/89.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "dec6d798aec790bbcb024015e0f2e648f07e121899b3f210fa185aac7b19ff16",
+    "notes": {
+      "utterance_id": "SONAR_AudioGen_89",
+      "system": "AudioGen",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/6b4e9f12fa6394cb8e88477ba6b63c95575ff0f8be2598ccb670a9e73e48dc0c.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "AudioGen",
+    "source_path": "AudioGen/39.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "6b4e9f12fa6394cb8e88477ba6b63c95575ff0f8be2598ccb670a9e73e48dc0c",
+    "notes": {
+      "utterance_id": "SONAR_AudioGen_39",
+      "system": "AudioGen",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/2bd7162229a4d4b04084dcc41e4f6d064228f0b2ffa1245e0d93c0ef94deebb8.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "AudioGen",
+    "source_path": "AudioGen/92.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "2bd7162229a4d4b04084dcc41e4f6d064228f0b2ffa1245e0d93c0ef94deebb8",
+    "notes": {
+      "utterance_id": "SONAR_AudioGen_92",
+      "system": "AudioGen",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/b0d00196401e8a7094e86195aaa040a7cdae675d7d03b8caa9fb815128861285.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "AudioGen",
+    "source_path": "AudioGen/16.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "b0d00196401e8a7094e86195aaa040a7cdae675d7d03b8caa9fb815128861285",
+    "notes": {
+      "utterance_id": "SONAR_AudioGen_16",
+      "system": "AudioGen",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/58b549c7d00bf21af8e1382e55bb8d4f030ee2d6b276affde71decc8cfa6b066.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "AudioGen",
+    "source_path": "AudioGen/40.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "58b549c7d00bf21af8e1382e55bb8d4f030ee2d6b276affde71decc8cfa6b066",
+    "notes": {
+      "utterance_id": "SONAR_AudioGen_40",
+      "system": "AudioGen",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/2d254c0a279df8bb6a7157ebe0313a38a2362805736cf88d85cd8e8eb3f711bc.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "AudioGen",
+    "source_path": "AudioGen/70.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "2d254c0a279df8bb6a7157ebe0313a38a2362805736cf88d85cd8e8eb3f711bc",
+    "notes": {
+      "utterance_id": "SONAR_AudioGen_70",
+      "system": "AudioGen",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/0ca3147a3e7ea0f11df2f4ec0455d58ff476856a5edb145299ecdbea0805c965.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "AudioGen",
+    "source_path": "AudioGen/36.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "0ca3147a3e7ea0f11df2f4ec0455d58ff476856a5edb145299ecdbea0805c965",
+    "notes": {
+      "utterance_id": "SONAR_AudioGen_36",
+      "system": "AudioGen",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/6d83e0425df424e0fa3918e73c3c75d39af9fc6975117288d0cc17908756fbe0.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "AudioGen",
+    "source_path": "AudioGen/7.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "6d83e0425df424e0fa3918e73c3c75d39af9fc6975117288d0cc17908756fbe0",
+    "notes": {
+      "utterance_id": "SONAR_AudioGen_7",
+      "system": "AudioGen",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/e35a53dd98b11b2b5fda8d9f60604e8bdd7a2819e0773460792bbe3f92eb5648.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "FlashSpeech",
+    "source_path": "FlashSpeech/78.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "e35a53dd98b11b2b5fda8d9f60604e8bdd7a2819e0773460792bbe3f92eb5648",
+    "notes": {
+      "utterance_id": "SONAR_FlashSpeech_78",
+      "system": "FlashSpeech",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/87e9031194059c795e763ae3c2f9c32d3d211cce3da85801556edb41019d8f6e.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "FlashSpeech",
+    "source_path": "FlashSpeech/13.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "87e9031194059c795e763ae3c2f9c32d3d211cce3da85801556edb41019d8f6e",
+    "notes": {
+      "utterance_id": "SONAR_FlashSpeech_13",
+      "system": "FlashSpeech",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/1473952569565e21b4c5ae26d15c3550f6e69a5a047af60c56d3f4dc263fba0c.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "FlashSpeech",
+    "source_path": "FlashSpeech/107.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "1473952569565e21b4c5ae26d15c3550f6e69a5a047af60c56d3f4dc263fba0c",
+    "notes": {
+      "utterance_id": "SONAR_FlashSpeech_107",
+      "system": "FlashSpeech",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/f92982e1ed43711b46b3ee7c688ac8e8144d0f86c91d3cda33e15597e0916d86.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "FlashSpeech",
+    "source_path": "FlashSpeech/94.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "f92982e1ed43711b46b3ee7c688ac8e8144d0f86c91d3cda33e15597e0916d86",
+    "notes": {
+      "utterance_id": "SONAR_FlashSpeech_94",
+      "system": "FlashSpeech",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/3c846c850f43c310b07fde3cea74f71bd3ee6f0bd843b021c75e9e52c74fc114.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "FlashSpeech",
+    "source_path": "FlashSpeech/87.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "3c846c850f43c310b07fde3cea74f71bd3ee6f0bd843b021c75e9e52c74fc114",
+    "notes": {
+      "utterance_id": "SONAR_FlashSpeech_87",
+      "system": "FlashSpeech",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/d53fe93aceec7d278648ab61021f80bb3bcacddd8a96f7937fbb0d5cc7435680.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "FlashSpeech",
+    "source_path": "FlashSpeech/12.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "d53fe93aceec7d278648ab61021f80bb3bcacddd8a96f7937fbb0d5cc7435680",
+    "notes": {
+      "utterance_id": "SONAR_FlashSpeech_12",
+      "system": "FlashSpeech",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/27bd2375b64e9a1fc12e089e1dfce23efb72297a8aa4296e6a4b524042b528b2.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "FlashSpeech",
+    "source_path": "FlashSpeech/40.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "27bd2375b64e9a1fc12e089e1dfce23efb72297a8aa4296e6a4b524042b528b2",
+    "notes": {
+      "utterance_id": "SONAR_FlashSpeech_40",
+      "system": "FlashSpeech",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/8b36f15135c7eff01e54ff2d8dafbaf1d414162ade1470e0dc69e1595553e0b6.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "FlashSpeech",
+    "source_path": "FlashSpeech/103.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "8b36f15135c7eff01e54ff2d8dafbaf1d414162ade1470e0dc69e1595553e0b6",
+    "notes": {
+      "utterance_id": "SONAR_FlashSpeech_103",
+      "system": "FlashSpeech",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/b795477329e94db326cf3d675692f3327069a172292f49b1659cb08c82afc742.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "FlashSpeech",
+    "source_path": "FlashSpeech/53.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "b795477329e94db326cf3d675692f3327069a172292f49b1659cb08c82afc742",
+    "notes": {
+      "utterance_id": "SONAR_FlashSpeech_53",
+      "system": "FlashSpeech",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/69d6a1d39357d7f380c9b8a1dc9ba78860aeae1f4c560b027fe0db402248b88a.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "FlashSpeech",
+    "source_path": "FlashSpeech/95.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "69d6a1d39357d7f380c9b8a1dc9ba78860aeae1f4c560b027fe0db402248b88a",
+    "notes": {
+      "utterance_id": "SONAR_FlashSpeech_95",
+      "system": "FlashSpeech",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/8d926c92a8e45ca09f08e5d441680445aa6a847d241db4c786eef84266682b2b.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "FlashSpeech",
+    "source_path": "FlashSpeech/90.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "8d926c92a8e45ca09f08e5d441680445aa6a847d241db4c786eef84266682b2b",
+    "notes": {
+      "utterance_id": "SONAR_FlashSpeech_90",
+      "system": "FlashSpeech",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/18e7254a36ca96894825f8a2cd04a174d765574f17f776e75102d279ebf166dd.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "FlashSpeech",
+    "source_path": "FlashSpeech/109.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "18e7254a36ca96894825f8a2cd04a174d765574f17f776e75102d279ebf166dd",
+    "notes": {
+      "utterance_id": "SONAR_FlashSpeech_109",
+      "system": "FlashSpeech",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/713c8dc7e7fd24af91b8b93a5d9618f1e73f57f3da48fcb5bd229a6665fe414b.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "FlashSpeech",
+    "source_path": "FlashSpeech/76.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "713c8dc7e7fd24af91b8b93a5d9618f1e73f57f3da48fcb5bd229a6665fe414b",
+    "notes": {
+      "utterance_id": "SONAR_FlashSpeech_76",
+      "system": "FlashSpeech",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/dc05a9fb1e715b2dcf768d9aecc6c29dcb583246adffef6482d665e209296b40.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "FlashSpeech",
+    "source_path": "FlashSpeech/58.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "dc05a9fb1e715b2dcf768d9aecc6c29dcb583246adffef6482d665e209296b40",
+    "notes": {
+      "utterance_id": "SONAR_FlashSpeech_58",
+      "system": "FlashSpeech",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/79a8823bbb74f141b037f5a20000db4d1c336375f9b99c7f743f6c04777941a3.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "FlashSpeech",
+    "source_path": "FlashSpeech/106.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "79a8823bbb74f141b037f5a20000db4d1c336375f9b99c7f743f6c04777941a3",
+    "notes": {
+      "utterance_id": "SONAR_FlashSpeech_106",
+      "system": "FlashSpeech",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/fbc0f6329e4d25bd175df4d60a3f80c3a9096f5a251092aa9e94952e66cf68cb.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "FlashSpeech",
+    "source_path": "FlashSpeech/117.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "fbc0f6329e4d25bd175df4d60a3f80c3a9096f5a251092aa9e94952e66cf68cb",
+    "notes": {
+      "utterance_id": "SONAR_FlashSpeech_117",
+      "system": "FlashSpeech",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/2f43b78709675aa09dbd24e225d624a591fe6eb01b43be34ef959694e2a0d795.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "FlashSpeech",
+    "source_path": "FlashSpeech/9.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "2f43b78709675aa09dbd24e225d624a591fe6eb01b43be34ef959694e2a0d795",
+    "notes": {
+      "utterance_id": "SONAR_FlashSpeech_9",
+      "system": "FlashSpeech",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/72370bc580d83dd4d90aed9a34e21a7bfa23cc1ab349dff35eb43b6aa8c663e6.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "FlashSpeech",
+    "source_path": "FlashSpeech/30.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "72370bc580d83dd4d90aed9a34e21a7bfa23cc1ab349dff35eb43b6aa8c663e6",
+    "notes": {
+      "utterance_id": "SONAR_FlashSpeech_30",
+      "system": "FlashSpeech",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/1263b186d064b0bb3aee69b5c1c9104bea7baeb595476ee73109d1330f77b813.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "FlashSpeech",
+    "source_path": "FlashSpeech/23.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "1263b186d064b0bb3aee69b5c1c9104bea7baeb595476ee73109d1330f77b813",
+    "notes": {
+      "utterance_id": "SONAR_FlashSpeech_23",
+      "system": "FlashSpeech",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/d8c0e1a582ebecc1bfbcbd386802ec1b574023ab8140641844b8c41923f4ffee.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "FlashSpeech",
+    "source_path": "FlashSpeech/2.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "d8c0e1a582ebecc1bfbcbd386802ec1b574023ab8140641844b8c41923f4ffee",
+    "notes": {
+      "utterance_id": "SONAR_FlashSpeech_2",
+      "system": "FlashSpeech",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/e28667d306b908ff652f7d8e0611b896069bb127d9cc99af4e60f9edfe3626da.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "NaturalSpeech3",
+    "source_path": "NaturalSpeech3/16.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "e28667d306b908ff652f7d8e0611b896069bb127d9cc99af4e60f9edfe3626da",
+    "notes": {
+      "utterance_id": "SONAR_NaturalSpeech3_16",
+      "system": "NaturalSpeech3",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/30ed6787a87c7f7d4c72985fa82f12c6a87ab876f5bcbe688ddbf4ac5ef3f61f.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "NaturalSpeech3",
+    "source_path": "NaturalSpeech3/14.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "30ed6787a87c7f7d4c72985fa82f12c6a87ab876f5bcbe688ddbf4ac5ef3f61f",
+    "notes": {
+      "utterance_id": "SONAR_NaturalSpeech3_14",
+      "system": "NaturalSpeech3",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/e22edd8217ba6d5577cfa089d4840684fb3d7e51543ac72f9456a7f0f02a9cf0.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "NaturalSpeech3",
+    "source_path": "NaturalSpeech3/17.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "e22edd8217ba6d5577cfa089d4840684fb3d7e51543ac72f9456a7f0f02a9cf0",
+    "notes": {
+      "utterance_id": "SONAR_NaturalSpeech3_17",
+      "system": "NaturalSpeech3",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/c2326f8d3ddf786a3ca777e19650389f4821038d2e72ab5315403bbcb052ef1a.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "NaturalSpeech3",
+    "source_path": "NaturalSpeech3/30.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "c2326f8d3ddf786a3ca777e19650389f4821038d2e72ab5315403bbcb052ef1a",
+    "notes": {
+      "utterance_id": "SONAR_NaturalSpeech3_30",
+      "system": "NaturalSpeech3",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/871bab8cd6a15ea550073decdec6aed87bc3245999fb0a69c877be215749e6bf.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "NaturalSpeech3",
+    "source_path": "NaturalSpeech3/9.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "871bab8cd6a15ea550073decdec6aed87bc3245999fb0a69c877be215749e6bf",
+    "notes": {
+      "utterance_id": "SONAR_NaturalSpeech3_9",
+      "system": "NaturalSpeech3",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/1b7f87782bcc3addeb50336df44ecfde5de0e1a6826e96e84dc010c259e5afb0.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "NaturalSpeech3",
+    "source_path": "NaturalSpeech3/6.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "1b7f87782bcc3addeb50336df44ecfde5de0e1a6826e96e84dc010c259e5afb0",
+    "notes": {
+      "utterance_id": "SONAR_NaturalSpeech3_6",
+      "system": "NaturalSpeech3",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/bfc9dcedd306fe92b298edd6ae2b401e3af13993038b0586b978c94a0b66cb16.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "NaturalSpeech3",
+    "source_path": "NaturalSpeech3/8.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "bfc9dcedd306fe92b298edd6ae2b401e3af13993038b0586b978c94a0b66cb16",
+    "notes": {
+      "utterance_id": "SONAR_NaturalSpeech3_8",
+      "system": "NaturalSpeech3",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/be71830d03ecd496060abfe51daaf835f0724f15d15ac4481b16077c6bcb244d.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "NaturalSpeech3",
+    "source_path": "NaturalSpeech3/2.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "be71830d03ecd496060abfe51daaf835f0724f15d15ac4481b16077c6bcb244d",
+    "notes": {
+      "utterance_id": "SONAR_NaturalSpeech3_2",
+      "system": "NaturalSpeech3",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/107c0f3551db6da448fa15cdcdd3f027a01560234f20cab229d1d40a450c1c2d.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "NaturalSpeech3",
+    "source_path": "NaturalSpeech3/7.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "107c0f3551db6da448fa15cdcdd3f027a01560234f20cab229d1d40a450c1c2d",
+    "notes": {
+      "utterance_id": "SONAR_NaturalSpeech3_7",
+      "system": "NaturalSpeech3",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/f8a808ba2285d9c73c2e76d81ab14f8629a6cf5eb24698934a6d2ca84da3c1aa.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "NaturalSpeech3",
+    "source_path": "NaturalSpeech3/24.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "f8a808ba2285d9c73c2e76d81ab14f8629a6cf5eb24698934a6d2ca84da3c1aa",
+    "notes": {
+      "utterance_id": "SONAR_NaturalSpeech3_24",
+      "system": "NaturalSpeech3",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/a2ac1e4cd53e17d702580513d3b90ca3c33dcd06b3fd5ea00bad96d2fdbad593.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "NaturalSpeech3",
+    "source_path": "NaturalSpeech3/4.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "a2ac1e4cd53e17d702580513d3b90ca3c33dcd06b3fd5ea00bad96d2fdbad593",
+    "notes": {
+      "utterance_id": "SONAR_NaturalSpeech3_4",
+      "system": "NaturalSpeech3",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/7e2c65370728152635a6a27569976375052af9c9d83aec9a2f5a03bbddc7e86e.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "NaturalSpeech3",
+    "source_path": "NaturalSpeech3/0.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "7e2c65370728152635a6a27569976375052af9c9d83aec9a2f5a03bbddc7e86e",
+    "notes": {
+      "utterance_id": "SONAR_NaturalSpeech3_0",
+      "system": "NaturalSpeech3",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/033bcaf5ecf4eee3d46395619115768e69137883cd24ba0e67878bb303626a2c.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "NaturalSpeech3",
+    "source_path": "NaturalSpeech3/25.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "033bcaf5ecf4eee3d46395619115768e69137883cd24ba0e67878bb303626a2c",
+    "notes": {
+      "utterance_id": "SONAR_NaturalSpeech3_25",
+      "system": "NaturalSpeech3",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/5083b01ece4b7eedba078f1256db3d90d6b6257ecd467b4c6a0ed3370092805e.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "NaturalSpeech3",
+    "source_path": "NaturalSpeech3/31.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "5083b01ece4b7eedba078f1256db3d90d6b6257ecd467b4c6a0ed3370092805e",
+    "notes": {
+      "utterance_id": "SONAR_NaturalSpeech3_31",
+      "system": "NaturalSpeech3",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/7f84173a258ad01654a9d7f63941a723bc293cff8e993f2603118158363ddc79.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "NaturalSpeech3",
+    "source_path": "NaturalSpeech3/15.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "7f84173a258ad01654a9d7f63941a723bc293cff8e993f2603118158363ddc79",
+    "notes": {
+      "utterance_id": "SONAR_NaturalSpeech3_15",
+      "system": "NaturalSpeech3",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/bb3eecd1348f3d3b5cf39575a6085e4b0b21bd18a02a1a2d21098144878bec1b.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "NaturalSpeech3",
+    "source_path": "NaturalSpeech3/28.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "bb3eecd1348f3d3b5cf39575a6085e4b0b21bd18a02a1a2d21098144878bec1b",
+    "notes": {
+      "utterance_id": "SONAR_NaturalSpeech3_28",
+      "system": "NaturalSpeech3",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/e1dcc60f73418da411c358aff2621a7a24f0cb846dde8b18d296cd868bd98069.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "NaturalSpeech3",
+    "source_path": "NaturalSpeech3/21.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "e1dcc60f73418da411c358aff2621a7a24f0cb846dde8b18d296cd868bd98069",
+    "notes": {
+      "utterance_id": "SONAR_NaturalSpeech3_21",
+      "system": "NaturalSpeech3",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/caa2a7b1a1bccd48902d6c497f6febe6d9e6019f5dc5db84c97be6b49c8f99ce.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "NaturalSpeech3",
+    "source_path": "NaturalSpeech3/18.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "caa2a7b1a1bccd48902d6c497f6febe6d9e6019f5dc5db84c97be6b49c8f99ce",
+    "notes": {
+      "utterance_id": "SONAR_NaturalSpeech3_18",
+      "system": "NaturalSpeech3",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/a4e9b6e44bce1788246f87ce48f761827658a97c34984dde4f6828d8abe46df6.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "NaturalSpeech3",
+    "source_path": "NaturalSpeech3/23.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "a4e9b6e44bce1788246f87ce48f761827658a97c34984dde4f6828d8abe46df6",
+    "notes": {
+      "utterance_id": "SONAR_NaturalSpeech3_23",
+      "system": "NaturalSpeech3",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/1c13f1032f8364fcb674c5191d7d9be1abaff07bed1312b7a6ed385237cffe7e.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "NaturalSpeech3",
+    "source_path": "NaturalSpeech3/10.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "1c13f1032f8364fcb674c5191d7d9be1abaff07bed1312b7a6ed385237cffe7e",
+    "notes": {
+      "utterance_id": "SONAR_NaturalSpeech3_10",
+      "system": "NaturalSpeech3",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/8551faedcfd6c614d8feac26333d01def51aea450e9400cf01d4cb3eb8d959bc.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "OpenAI",
+    "source_path": "OpenAI/shimmer_31.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "8551faedcfd6c614d8feac26333d01def51aea450e9400cf01d4cb3eb8d959bc",
+    "notes": {
+      "utterance_id": "SONAR_OpenAI_shimmer_31",
+      "system": "OpenAI",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/cc2214d665b5993f38334ec256d7c880670e895759ae23397bc8371614993f47.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "OpenAI",
+    "source_path": "OpenAI/onyx_77.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "cc2214d665b5993f38334ec256d7c880670e895759ae23397bc8371614993f47",
+    "notes": {
+      "utterance_id": "SONAR_OpenAI_onyx_77",
+      "system": "OpenAI",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/17b9e27008e913df832515418847e1e60f301574ec485a9fd205a7d0db69b86d.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "OpenAI",
+    "source_path": "OpenAI/alloy_72.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "17b9e27008e913df832515418847e1e60f301574ec485a9fd205a7d0db69b86d",
+    "notes": {
+      "utterance_id": "SONAR_OpenAI_alloy_72",
+      "system": "OpenAI",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/621af47fb8ba858c5f9742b854ef5cb16b9877b4aca568f53f843908d4ae1c57.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "OpenAI",
+    "source_path": "OpenAI/nova_69.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "621af47fb8ba858c5f9742b854ef5cb16b9877b4aca568f53f843908d4ae1c57",
+    "notes": {
+      "utterance_id": "SONAR_OpenAI_nova_69",
+      "system": "OpenAI",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/6cd42c71b92d7f828e6a04dce5bdd3a0213ea976889f993c1146152c0ed9fe1b.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "OpenAI",
+    "source_path": "OpenAI/onyx_45.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "6cd42c71b92d7f828e6a04dce5bdd3a0213ea976889f993c1146152c0ed9fe1b",
+    "notes": {
+      "utterance_id": "SONAR_OpenAI_onyx_45",
+      "system": "OpenAI",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/1b3a56fccc143ad38515e037db237abfed24b086f66c1982a54fd4128f5aaf2e.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "OpenAI",
+    "source_path": "OpenAI/nova_47.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "1b3a56fccc143ad38515e037db237abfed24b086f66c1982a54fd4128f5aaf2e",
+    "notes": {
+      "utterance_id": "SONAR_OpenAI_nova_47",
+      "system": "OpenAI",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/51370f18715343206d0fb90672c0a30be98b8f4dc536cb445bf37c3c7f544985.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "OpenAI",
+    "source_path": "OpenAI/nova_44.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "51370f18715343206d0fb90672c0a30be98b8f4dc536cb445bf37c3c7f544985",
+    "notes": {
+      "utterance_id": "SONAR_OpenAI_nova_44",
+      "system": "OpenAI",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/c8147d33ca7d23ded1d3d13fd78aa27daf43252b6c8faf46c30989f0b903bf10.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "OpenAI",
+    "source_path": "OpenAI/alloy_59.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "c8147d33ca7d23ded1d3d13fd78aa27daf43252b6c8faf46c30989f0b903bf10",
+    "notes": {
+      "utterance_id": "SONAR_OpenAI_alloy_59",
+      "system": "OpenAI",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/5a0b7c67142ee0427710f17d768e6469e9f583801018f38d5975d97a68774fdf.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "OpenAI",
+    "source_path": "OpenAI/shimmer_63.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "5a0b7c67142ee0427710f17d768e6469e9f583801018f38d5975d97a68774fdf",
+    "notes": {
+      "utterance_id": "SONAR_OpenAI_shimmer_63",
+      "system": "OpenAI",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/971694243020228abcc5ff5db0be2ef4aecc30988d7d9d8f6dd509731f52f711.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "OpenAI",
+    "source_path": "OpenAI/fable_34.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "971694243020228abcc5ff5db0be2ef4aecc30988d7d9d8f6dd509731f52f711",
+    "notes": {
+      "utterance_id": "SONAR_OpenAI_fable_34",
+      "system": "OpenAI",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/d5ff5fadd05f26c9fad2c6540fd49356045f51bad7c359c826f34c20246d0233.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "OpenAI",
+    "source_path": "OpenAI/nova_0.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "d5ff5fadd05f26c9fad2c6540fd49356045f51bad7c359c826f34c20246d0233",
+    "notes": {
+      "utterance_id": "SONAR_OpenAI_nova_0",
+      "system": "OpenAI",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/410cf7c26e4b1d0ae9b781e2483be2467dcb68b5be94205b8395524e61b25e20.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "OpenAI",
+    "source_path": "OpenAI/alloy_55.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "410cf7c26e4b1d0ae9b781e2483be2467dcb68b5be94205b8395524e61b25e20",
+    "notes": {
+      "utterance_id": "SONAR_OpenAI_alloy_55",
+      "system": "OpenAI",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/ee0d1e51d1c7f5a0016b2abb62d43c0b9ff282629d30a49b7e1803657a682cc2.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "OpenAI",
+    "source_path": "OpenAI/alloy_94.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "ee0d1e51d1c7f5a0016b2abb62d43c0b9ff282629d30a49b7e1803657a682cc2",
+    "notes": {
+      "utterance_id": "SONAR_OpenAI_alloy_94",
+      "system": "OpenAI",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/5b4a7434eda7df876f35a3808f011ef5bedfe03157dffa11937741e597b3616f.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "OpenAI",
+    "source_path": "OpenAI/nova_49.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "5b4a7434eda7df876f35a3808f011ef5bedfe03157dffa11937741e597b3616f",
+    "notes": {
+      "utterance_id": "SONAR_OpenAI_nova_49",
+      "system": "OpenAI",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/37183956f9e689ab622fbc94af799c47fde71d4b82529d7a06c40511bdbc55f6.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "OpenAI",
+    "source_path": "OpenAI/shimmer_85.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "37183956f9e689ab622fbc94af799c47fde71d4b82529d7a06c40511bdbc55f6",
+    "notes": {
+      "utterance_id": "SONAR_OpenAI_shimmer_85",
+      "system": "OpenAI",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/a38a94d4e656b4d3fbc5143c09ea6f45157276a8940b5e3784e09a569883614c.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "OpenAI",
+    "source_path": "OpenAI/onyx_75.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "a38a94d4e656b4d3fbc5143c09ea6f45157276a8940b5e3784e09a569883614c",
+    "notes": {
+      "utterance_id": "SONAR_OpenAI_onyx_75",
+      "system": "OpenAI",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/6f47b54657a224d2a2ce18205f563669ee89fc31db29c348b20a2b77aaf407d2.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "OpenAI",
+    "source_path": "OpenAI/shimmer_15.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "6f47b54657a224d2a2ce18205f563669ee89fc31db29c348b20a2b77aaf407d2",
+    "notes": {
+      "utterance_id": "SONAR_OpenAI_shimmer_15",
+      "system": "OpenAI",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/f87b41c355311488913845ea68c839752ea94efec8cab7f9918a0915b47c2612.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "OpenAI",
+    "source_path": "OpenAI/nova_60.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "f87b41c355311488913845ea68c839752ea94efec8cab7f9918a0915b47c2612",
+    "notes": {
+      "utterance_id": "SONAR_OpenAI_nova_60",
+      "system": "OpenAI",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/afae60c1353ffc3f523361c9b5c13c3f22ca20bfb6482070511310fa320f9064.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "OpenAI",
+    "source_path": "OpenAI/alloy_33.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "afae60c1353ffc3f523361c9b5c13c3f22ca20bfb6482070511310fa320f9064",
+    "notes": {
+      "utterance_id": "SONAR_OpenAI_alloy_33",
+      "system": "OpenAI",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/96d4c120f7f0c37b321b331b4fef699e3e92b694d22509e12f0ef0fb31c24ba0.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "OpenAI",
+    "source_path": "OpenAI/onyx_42.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "96d4c120f7f0c37b321b331b4fef699e3e92b694d22509e12f0ef0fb31c24ba0",
+    "notes": {
+      "utterance_id": "SONAR_OpenAI_onyx_42",
+      "system": "OpenAI",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/26c3453da87a2a3315fb453662aecb7c28fe3067a6e1bef473cc346d8d378624.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "PromptTTS2",
+    "source_path": "PromptTTS2/audio40.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "26c3453da87a2a3315fb453662aecb7c28fe3067a6e1bef473cc346d8d378624",
+    "notes": {
+      "utterance_id": "SONAR_PromptTTS2_audio40",
+      "system": "PromptTTS2",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/618407e7d1bdb8da44753fead14ab09249dbe80e6a6dfab70a536fe0536b589e.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "PromptTTS2",
+    "source_path": "PromptTTS2/audio2.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "618407e7d1bdb8da44753fead14ab09249dbe80e6a6dfab70a536fe0536b589e",
+    "notes": {
+      "utterance_id": "SONAR_PromptTTS2_audio2",
+      "system": "PromptTTS2",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/7190b38e270100c9e079358b2cc85466955cd61eca7dcbc963752d3b82fffe8e.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "PromptTTS2",
+    "source_path": "PromptTTS2/audio16.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "7190b38e270100c9e079358b2cc85466955cd61eca7dcbc963752d3b82fffe8e",
+    "notes": {
+      "utterance_id": "SONAR_PromptTTS2_audio16",
+      "system": "PromptTTS2",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/663e6c17801cb4c013ec1c669e1a18448abf696e267da283994c2c4f8d6d127d.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "PromptTTS2",
+    "source_path": "PromptTTS2/audio49.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "663e6c17801cb4c013ec1c669e1a18448abf696e267da283994c2c4f8d6d127d",
+    "notes": {
+      "utterance_id": "SONAR_PromptTTS2_audio49",
+      "system": "PromptTTS2",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/7cfdcf78085a766a8b7c3d56d26a925121a7e395c5ae6f73a2516847226b37f9.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "PromptTTS2",
+    "source_path": "PromptTTS2/audio7.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "7cfdcf78085a766a8b7c3d56d26a925121a7e395c5ae6f73a2516847226b37f9",
+    "notes": {
+      "utterance_id": "SONAR_PromptTTS2_audio7",
+      "system": "PromptTTS2",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/963c11598f950037f46a76de8028e0805909224470200dc14d7455548371f0f0.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "PromptTTS2",
+    "source_path": "PromptTTS2/audio50.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "963c11598f950037f46a76de8028e0805909224470200dc14d7455548371f0f0",
+    "notes": {
+      "utterance_id": "SONAR_PromptTTS2_audio50",
+      "system": "PromptTTS2",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/4cc18ce38abed33d4e2428acd894ca7ddf9999902c4ee82e550763c918e19055.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "PromptTTS2",
+    "source_path": "PromptTTS2/audio1.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "4cc18ce38abed33d4e2428acd894ca7ddf9999902c4ee82e550763c918e19055",
+    "notes": {
+      "utterance_id": "SONAR_PromptTTS2_audio1",
+      "system": "PromptTTS2",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/cf259b01ee72d87bade9309592f050188c646d46cd17a295db5720777da49ee8.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "PromptTTS2",
+    "source_path": "PromptTTS2/audio18.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "cf259b01ee72d87bade9309592f050188c646d46cd17a295db5720777da49ee8",
+    "notes": {
+      "utterance_id": "SONAR_PromptTTS2_audio18",
+      "system": "PromptTTS2",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/a117ec5dbf2b11c29ae8e37741b987194f42c3bbbe2d64f8a68316b555167f3b.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "PromptTTS2",
+    "source_path": "PromptTTS2/audio70.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "a117ec5dbf2b11c29ae8e37741b987194f42c3bbbe2d64f8a68316b555167f3b",
+    "notes": {
+      "utterance_id": "SONAR_PromptTTS2_audio70",
+      "system": "PromptTTS2",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/d453664c384cadabeba0e5c2686e6479ddd36d857d88303be9052947089c7a6f.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "PromptTTS2",
+    "source_path": "PromptTTS2/audio9.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "d453664c384cadabeba0e5c2686e6479ddd36d857d88303be9052947089c7a6f",
+    "notes": {
+      "utterance_id": "SONAR_PromptTTS2_audio9",
+      "system": "PromptTTS2",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/057b5c6c5648a29e2759b66ba9885436895f96af963ac71ac51d39e8ccc20b4e.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "PromptTTS2",
+    "source_path": "PromptTTS2/audio67.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "057b5c6c5648a29e2759b66ba9885436895f96af963ac71ac51d39e8ccc20b4e",
+    "notes": {
+      "utterance_id": "SONAR_PromptTTS2_audio67",
+      "system": "PromptTTS2",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/bf4862f1c6ebf83513f31fdfbf9a6f78346ac4dc2080e7d50bc0de9528351db2.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "PromptTTS2",
+    "source_path": "PromptTTS2/audio45.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "bf4862f1c6ebf83513f31fdfbf9a6f78346ac4dc2080e7d50bc0de9528351db2",
+    "notes": {
+      "utterance_id": "SONAR_PromptTTS2_audio45",
+      "system": "PromptTTS2",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/6a62aff4f8eee2e3c1caa9e828fbe8af42157aaeb01903161fdb22ae8fd0b32c.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "PromptTTS2",
+    "source_path": "PromptTTS2/audio66.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "6a62aff4f8eee2e3c1caa9e828fbe8af42157aaeb01903161fdb22ae8fd0b32c",
+    "notes": {
+      "utterance_id": "SONAR_PromptTTS2_audio66",
+      "system": "PromptTTS2",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/07f2148ff1139b3dfc36b312f2ebbe465c1f9f0e18af6cb4a66b3745c1b7b9ad.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "PromptTTS2",
+    "source_path": "PromptTTS2/audio44.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "07f2148ff1139b3dfc36b312f2ebbe465c1f9f0e18af6cb4a66b3745c1b7b9ad",
+    "notes": {
+      "utterance_id": "SONAR_PromptTTS2_audio44",
+      "system": "PromptTTS2",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/8fe230297dbf65aae537a68fdb83f2f1f68bcb6b5d6f2c4b856d279eb0423b8d.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "PromptTTS2",
+    "source_path": "PromptTTS2/audio42.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "8fe230297dbf65aae537a68fdb83f2f1f68bcb6b5d6f2c4b856d279eb0423b8d",
+    "notes": {
+      "utterance_id": "SONAR_PromptTTS2_audio42",
+      "system": "PromptTTS2",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/c02af909a8ae980b56f460261dc6f0a8f706d9f92a1e184123e11a2e92d48ca5.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "PromptTTS2",
+    "source_path": "PromptTTS2/audio41.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "c02af909a8ae980b56f460261dc6f0a8f706d9f92a1e184123e11a2e92d48ca5",
+    "notes": {
+      "utterance_id": "SONAR_PromptTTS2_audio41",
+      "system": "PromptTTS2",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/3e9fe3a2baee2bb58280a1db29ee8636023ec615d5839e77033561aebc8bdf8f.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "PromptTTS2",
+    "source_path": "PromptTTS2/audio27.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "3e9fe3a2baee2bb58280a1db29ee8636023ec615d5839e77033561aebc8bdf8f",
+    "notes": {
+      "utterance_id": "SONAR_PromptTTS2_audio27",
+      "system": "PromptTTS2",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/78e94389302c9c93f8c56f770768af25ea6bff088c03695dc6a100374f7f433e.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "PromptTTS2",
+    "source_path": "PromptTTS2/audio17.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "78e94389302c9c93f8c56f770768af25ea6bff088c03695dc6a100374f7f433e",
+    "notes": {
+      "utterance_id": "SONAR_PromptTTS2_audio17",
+      "system": "PromptTTS2",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/a8e74f6cfeb00adb33d129845ea44302a4578675954601c25b9bcd0d74551f4c.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "PromptTTS2",
+    "source_path": "PromptTTS2/audio38.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "a8e74f6cfeb00adb33d129845ea44302a4578675954601c25b9bcd0d74551f4c",
+    "notes": {
+      "utterance_id": "SONAR_PromptTTS2_audio38",
+      "system": "PromptTTS2",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/b586da8683db6d077f2eef7a99cb078527d6a1d6a91a81354d2bb19360bbd3df.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "PromptTTS2",
+    "source_path": "PromptTTS2/audio8.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "b586da8683db6d077f2eef7a99cb078527d6a1d6a91a81354d2bb19360bbd3df",
+    "notes": {
+      "utterance_id": "SONAR_PromptTTS2_audio8",
+      "system": "PromptTTS2",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/43961422d746fcc0d371af1af5817e234d22561ff0e40128d3ab8e6f8fc680bb.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "VALLE",
+    "source_path": "VALLE/4992-41806-0011.valle_.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "43961422d746fcc0d371af1af5817e234d22561ff0e40128d3ab8e6f8fc680bb",
+    "notes": {
+      "utterance_id": "SONAR_VALLE_4992-41806-0011.valle_",
+      "system": "VALLE",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/b6e4d12fba23964267137e26581105ac021f9b68ae26ce6384b974b6977c2abf.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "VALLE",
+    "source_path": "VALLE/1320-122617-0011.valle_.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "b6e4d12fba23964267137e26581105ac021f9b68ae26ce6384b974b6977c2abf",
+    "notes": {
+      "utterance_id": "SONAR_VALLE_1320-122617-0011.valle_",
+      "system": "VALLE",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/8977c88483eecdc12e7a56ebc5efdf79c260ee7f296458c83460fbeb06417bc8.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "VALLE",
+    "source_path": "VALLE/valle2_hard_samples_67_valle.1.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "8977c88483eecdc12e7a56ebc5efdf79c260ee7f296458c83460fbeb06417bc8",
+    "notes": {
+      "utterance_id": "SONAR_VALLE_valle2_hard_samples_67_valle.1",
+      "system": "VALLE",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/b55e8deba756448130de7832e74881f171bcb33a6a0b4674b87ac091fafdce69.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "VALLE",
+    "source_path": "VALLE/1089-134686-0008.valle_.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "b55e8deba756448130de7832e74881f171bcb33a6a0b4674b87ac091fafdce69",
+    "notes": {
+      "utterance_id": "SONAR_VALLE_1089-134686-0008.valle_",
+      "system": "VALLE",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/2a067ca90b8d94a38dc0247c04458e0257755862ee306f607791d5038309108c.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "VALLE",
+    "source_path": "VALLE/librispeech_3570-5696-0002_ours1.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "2a067ca90b8d94a38dc0247c04458e0257755862ee306f607791d5038309108c",
+    "notes": {
+      "utterance_id": "SONAR_VALLE_librispeech_3570-5696-0002_ours1",
+      "system": "VALLE",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/ed2a1c8815dab39a3ea28097ca900db527116cdba67b7c52d3d5760556bbafb0.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "VALLE",
+    "source_path": "VALLE/1995-1837-0019.valle_.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "ed2a1c8815dab39a3ea28097ca900db527116cdba67b7c52d3d5760556bbafb0",
+    "notes": {
+      "utterance_id": "SONAR_VALLE_1995-1837-0019.valle_",
+      "system": "VALLE",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/7ea1bfbc30ef2298f1b221640e95d8305dbc0bd156e5ffe861c74ca87a797516.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "VALLE",
+    "source_path": "VALLE/librispeech_4077-13754-0000_ours.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "7ea1bfbc30ef2298f1b221640e95d8305dbc0bd156e5ffe861c74ca87a797516",
+    "notes": {
+      "utterance_id": "SONAR_VALLE_librispeech_4077-13754-0000_ours",
+      "system": "VALLE",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/54b8354044e34cfbe75e074da8cf45ec7559de60f56c0a2f4d265fe43e5c07be.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "VALLE",
+    "source_path": "VALLE/librispeech_2961-960-0014_ours1.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "54b8354044e34cfbe75e074da8cf45ec7559de60f56c0a2f4d265fe43e5c07be",
+    "notes": {
+      "utterance_id": "SONAR_VALLE_librispeech_2961-960-0014_ours1",
+      "system": "VALLE",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/3d262b0ea2e5b4e70272220cc19689704bdc5dc98a4776c026453998c6dd53b2.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "VALLE",
+    "source_path": "VALLE/librispeech_61-70970-0024_ours.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "3d262b0ea2e5b4e70272220cc19689704bdc5dc98a4776c026453998c6dd53b2",
+    "notes": {
+      "utterance_id": "SONAR_VALLE_librispeech_61-70970-0024_ours",
+      "system": "VALLE",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/410255776e5f2c0773f069b6a0ece47471ec4d9fc7b32099b92a7c76c978191e.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "VALLE",
+    "source_path": "VALLE/valle2_librispeech_1216_conti_infer_valle.vocos_.0.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "410255776e5f2c0773f069b6a0ece47471ec4d9fc7b32099b92a7c76c978191e",
+    "notes": {
+      "utterance_id": "SONAR_VALLE_valle2_librispeech_1216_conti_infer_valle.vocos_.0",
+      "system": "VALLE",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/833303fb0c3a4c37154632bc259f4270f5e6d4e4da56c7f90c629c3ef87d8dd9.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "VALLE",
+    "source_path": "VALLE/valle2_vctk_27_3s_valle.vocos_.0.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "833303fb0c3a4c37154632bc259f4270f5e6d4e4da56c7f90c629c3ef87d8dd9",
+    "notes": {
+      "utterance_id": "SONAR_VALLE_valle2_vctk_27_3s_valle.vocos_.0",
+      "system": "VALLE",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/e6f4998e369f9b4c5328ea054be0303abd312eade78fc481d4901af6e97b9ce5.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "VALLE",
+    "source_path": "VALLE/valle2_hard_samples_48_valle.0.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "e6f4998e369f9b4c5328ea054be0303abd312eade78fc481d4901af6e97b9ce5",
+    "notes": {
+      "utterance_id": "SONAR_VALLE_valle2_hard_samples_48_valle.0",
+      "system": "VALLE",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/48ecef98e80dff4ada02207f3832696fabc23fb0d3984ac7826019e935df1a7c.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "VALLE",
+    "source_path": "VALLE/valle2_hard_samples_67_valle.0.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "48ecef98e80dff4ada02207f3832696fabc23fb0d3984ac7826019e935df1a7c",
+    "notes": {
+      "utterance_id": "SONAR_VALLE_valle2_hard_samples_67_valle.0",
+      "system": "VALLE",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/04c7e95398c7be09b5c188bd17c8b8377b78cf6a17eb95cb190f8f1dc2134314.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "VALLE",
+    "source_path": "VALLE/fisher_2_ours.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "04c7e95398c7be09b5c188bd17c8b8377b78cf6a17eb95cb190f8f1dc2134314",
+    "notes": {
+      "utterance_id": "SONAR_VALLE_fisher_2_ours",
+      "system": "VALLE",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/90da8bfcf9257b0912edfe48b36a45e1c91e5f8b32d74470d03ae043d0f1fe1c.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "VALLE",
+    "source_path": "VALLE/valle2_hard_samples_42_valle.1.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "90da8bfcf9257b0912edfe48b36a45e1c91e5f8b32d74470d03ae043d0f1fe1c",
+    "notes": {
+      "utterance_id": "SONAR_VALLE_valle2_hard_samples_42_valle.1",
+      "system": "VALLE",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/216392bdf826bd245a4972f507a89fb54b567fcf8a2cebfaee14ed39e797dad4.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "VALLE",
+    "source_path": "VALLE/emov_db_sleepiness_ours.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "216392bdf826bd245a4972f507a89fb54b567fcf8a2cebfaee14ed39e797dad4",
+    "notes": {
+      "utterance_id": "SONAR_VALLE_emov_db_sleepiness_ours",
+      "system": "VALLE",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/32f96aad3de1b802f9f0cd987562950b066cd141942629a5aba2b4ba6c90a781.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "VALLE",
+    "source_path": "VALLE/vctk_diversity_p230_s1.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "32f96aad3de1b802f9f0cd987562950b066cd141942629a5aba2b4ba6c90a781",
+    "notes": {
+      "utterance_id": "SONAR_VALLE_vctk_diversity_p230_s1",
+      "system": "VALLE",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/a961e2ec629c94ec336ad7f93e9c7f34f2dfcb348a3bfe4045b2eb20d57f16e5.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "VALLE",
+    "source_path": "VALLE/672-122797-0055.valle_.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "a961e2ec629c94ec336ad7f93e9c7f34f2dfcb348a3bfe4045b2eb20d57f16e5",
+    "notes": {
+      "utterance_id": "SONAR_VALLE_672-122797-0055.valle_",
+      "system": "VALLE",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/7ef96db9fd88f78f9715b01143630f0804d29aa528cb434cf297ad7760c094af.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "VALLE",
+    "source_path": "VALLE/librispeech_2830-3980-0008_ours1.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "7ef96db9fd88f78f9715b01143630f0804d29aa528cb434cf297ad7760c094af",
+    "notes": {
+      "utterance_id": "SONAR_VALLE_librispeech_2830-3980-0008_ours1",
+      "system": "VALLE",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/12ad2b6577a972f657ddc5b8febc159e1383ba38d19d5c7e2ff6ab20f8e25fca.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "VALLE",
+    "source_path": "VALLE/valle2_hard_samples_89_valle.0.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "12ad2b6577a972f657ddc5b8febc159e1383ba38d19d5c7e2ff6ab20f8e25fca",
+    "notes": {
+      "utterance_id": "SONAR_VALLE_valle2_hard_samples_89_valle.0",
+      "system": "VALLE",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/1e411453e8e4d39e4f089bb8bc86404453f268834a70def83192fadba0f0e256.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "VoiceBox",
+    "source_path": "VoiceBox/83.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "1e411453e8e4d39e4f089bb8bc86404453f268834a70def83192fadba0f0e256",
+    "notes": {
+      "utterance_id": "SONAR_VoiceBox_83",
+      "system": "VoiceBox",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/c8db4c3f3f561163c3718311c8fcce7331bb5b660a51853e40289702eb61f8c1.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "VoiceBox",
+    "source_path": "VoiceBox/24.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "c8db4c3f3f561163c3718311c8fcce7331bb5b660a51853e40289702eb61f8c1",
+    "notes": {
+      "utterance_id": "SONAR_VoiceBox_24",
+      "system": "VoiceBox",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/82bb87a7770a4c7fe8303898ab90c51a73b58c9d6706aa59f147c0a065541644.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "VoiceBox",
+    "source_path": "VoiceBox/99.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "82bb87a7770a4c7fe8303898ab90c51a73b58c9d6706aa59f147c0a065541644",
+    "notes": {
+      "utterance_id": "SONAR_VoiceBox_99",
+      "system": "VoiceBox",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/5d75f2ef28e8e5c81543dee5ff20a09ab54f398c8fb75378b0521141c27c1dcb.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "VoiceBox",
+    "source_path": "VoiceBox/71.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "5d75f2ef28e8e5c81543dee5ff20a09ab54f398c8fb75378b0521141c27c1dcb",
+    "notes": {
+      "utterance_id": "SONAR_VoiceBox_71",
+      "system": "VoiceBox",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/6196894328e369bd86edb0fe2b55a627368f9f532afaca8f6bfb16192b961c4f.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "VoiceBox",
+    "source_path": "VoiceBox/41.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "6196894328e369bd86edb0fe2b55a627368f9f532afaca8f6bfb16192b961c4f",
+    "notes": {
+      "utterance_id": "SONAR_VoiceBox_41",
+      "system": "VoiceBox",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/3d6fb2ae2a7acc88eb38ea181a141cd6c4e03841625d69b0eabd4ad7291d7298.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "VoiceBox",
+    "source_path": "VoiceBox/9.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "3d6fb2ae2a7acc88eb38ea181a141cd6c4e03841625d69b0eabd4ad7291d7298",
+    "notes": {
+      "utterance_id": "SONAR_VoiceBox_9",
+      "system": "VoiceBox",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/2dd806a85cdded33fd111dc6bdd3c703203160e45ea6c599a173dc74f4bf3073.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "VoiceBox",
+    "source_path": "VoiceBox/35.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "2dd806a85cdded33fd111dc6bdd3c703203160e45ea6c599a173dc74f4bf3073",
+    "notes": {
+      "utterance_id": "SONAR_VoiceBox_35",
+      "system": "VoiceBox",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/42d63e229252629070f7b36c44a158f54c7cf308cc21dd02b1c3e2dcfd7f850f.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "VoiceBox",
+    "source_path": "VoiceBox/82.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "42d63e229252629070f7b36c44a158f54c7cf308cc21dd02b1c3e2dcfd7f850f",
+    "notes": {
+      "utterance_id": "SONAR_VoiceBox_82",
+      "system": "VoiceBox",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/316514e35cb52e974e1ca9bb14590a24d56fee8a60fa5e8622cd334faab9170c.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "VoiceBox",
+    "source_path": "VoiceBox/87.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "316514e35cb52e974e1ca9bb14590a24d56fee8a60fa5e8622cd334faab9170c",
+    "notes": {
+      "utterance_id": "SONAR_VoiceBox_87",
+      "system": "VoiceBox",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/313bccab51447fc2c5dfada561c8374bd286bf2eebb646fd5bd26c208fc971cd.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "VoiceBox",
+    "source_path": "VoiceBox/4.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "313bccab51447fc2c5dfada561c8374bd286bf2eebb646fd5bd26c208fc971cd",
+    "notes": {
+      "utterance_id": "SONAR_VoiceBox_4",
+      "system": "VoiceBox",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/4b26ea887ef82c1c4ed9edfb027e0d6669a44b0617b2094d3a91d71993fe7194.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "VoiceBox",
+    "source_path": "VoiceBox/89.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "4b26ea887ef82c1c4ed9edfb027e0d6669a44b0617b2094d3a91d71993fe7194",
+    "notes": {
+      "utterance_id": "SONAR_VoiceBox_89",
+      "system": "VoiceBox",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/fc6cf471c7bac0f2dbebe9ee46e1782a3959f45c7c6901d04579ed2baf8bda63.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "VoiceBox",
+    "source_path": "VoiceBox/2.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "fc6cf471c7bac0f2dbebe9ee46e1782a3959f45c7c6901d04579ed2baf8bda63",
+    "notes": {
+      "utterance_id": "SONAR_VoiceBox_2",
+      "system": "VoiceBox",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/3a1e96a96d7f2a77bb51a8c1aa329be3e3a583e4c409cdb0ed7d1e165b07c468.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "VoiceBox",
+    "source_path": "VoiceBox/95.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "3a1e96a96d7f2a77bb51a8c1aa329be3e3a583e4c409cdb0ed7d1e165b07c468",
+    "notes": {
+      "utterance_id": "SONAR_VoiceBox_95",
+      "system": "VoiceBox",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/6075ed301dd21774057b2aaf37a428c7570a0f53a6d07afb9b5cc8c56b192b15.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "VoiceBox",
+    "source_path": "VoiceBox/11.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "6075ed301dd21774057b2aaf37a428c7570a0f53a6d07afb9b5cc8c56b192b15",
+    "notes": {
+      "utterance_id": "SONAR_VoiceBox_11",
+      "system": "VoiceBox",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/00bfdce5963f53dfc1404b8459ab68cde5666dfe5292fa4512871984a33d237d.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "VoiceBox",
+    "source_path": "VoiceBox/63.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "00bfdce5963f53dfc1404b8459ab68cde5666dfe5292fa4512871984a33d237d",
+    "notes": {
+      "utterance_id": "SONAR_VoiceBox_63",
+      "system": "VoiceBox",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/f287b30935702bd8f74a8cd07931fbefa421c53928180dd57b3ff42e004ec3f5.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "VoiceBox",
+    "source_path": "VoiceBox/10.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "f287b30935702bd8f74a8cd07931fbefa421c53928180dd57b3ff42e004ec3f5",
+    "notes": {
+      "utterance_id": "SONAR_VoiceBox_10",
+      "system": "VoiceBox",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/cf461b28a3ec71d5149d78a7a49a2f669d8355ebbd12620461534418254b0719.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "VoiceBox",
+    "source_path": "VoiceBox/19.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "cf461b28a3ec71d5149d78a7a49a2f669d8355ebbd12620461534418254b0719",
+    "notes": {
+      "utterance_id": "SONAR_VoiceBox_19",
+      "system": "VoiceBox",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/fdf1dac9de8785c21fbad3c166f2948e7e4a8ff029b2c28cb999797da2180327.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "VoiceBox",
+    "source_path": "VoiceBox/20.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "fdf1dac9de8785c21fbad3c166f2948e7e4a8ff029b2c28cb999797da2180327",
+    "notes": {
+      "utterance_id": "SONAR_VoiceBox_20",
+      "system": "VoiceBox",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/74260a93000aaa287f4ff365266296fcd75affcb5a6827e4bc38388dd27a2151.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "VoiceBox",
+    "source_path": "VoiceBox/86.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "74260a93000aaa287f4ff365266296fcd75affcb5a6827e4bc38388dd27a2151",
+    "notes": {
+      "utterance_id": "SONAR_VoiceBox_86",
+      "system": "VoiceBox",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/eca8bbf67518d14fecfc8ac67f7e200f44a183505b3056788ac6fac4ca49dc41.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "VoiceBox",
+    "source_path": "VoiceBox/102.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "eca8bbf67518d14fecfc8ac67f7e200f44a183505b3056788ac6fac4ca49dc41",
+    "notes": {
+      "utterance_id": "SONAR_VoiceBox_102",
+      "system": "VoiceBox",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/d2b3eaa0966008648166c9fd002e45e091b3aa85f2b88ea5dcde19b9ea37fefc.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/7021_79740_000013_000000.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "d2b3eaa0966008648166c9fd002e45e091b3aa85f2b88ea5dcde19b9ea37fefc",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_7021_79740_000013_000000",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/a8e7b30290c791d5eea08c767c0011c75e9c2e99652e8b0f00a94b4cdfe67735.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/2961_961_000004_000003.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "a8e7b30290c791d5eea08c767c0011c75e9c2e99652e8b0f00a94b4cdfe67735",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_2961_961_000004_000003",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/067400c3980f025489587b2187b6e48125ed33bce8669a0686cda2e94722774e.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/4446_2271_000016_000000.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "067400c3980f025489587b2187b6e48125ed33bce8669a0686cda2e94722774e",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_4446_2271_000016_000000",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/a94048be3143b6d92006e014453296284b862e7a49a4e04c0f4c5a6923d83b08.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/2300_131720_000037_000002.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "a94048be3143b6d92006e014453296284b862e7a49a4e04c0f4c5a6923d83b08",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_2300_131720_000037_000002",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/df2c722041742f5a2942f55f39f53b3048c9f6a8265a3e2d264b2f43c0493dc8.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/4507_16021_000021_000002.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "df2c722041742f5a2942f55f39f53b3048c9f6a8265a3e2d264b2f43c0493dc8",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_4507_16021_000021_000002",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/f6a0b43dc568dd07460b1f0246238b7d70ccb3931b2a32d7671ed7a1cf6a8c42.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/8455_210777_000025_000000.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "f6a0b43dc568dd07460b1f0246238b7d70ccb3931b2a32d7671ed7a1cf6a8c42",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_8455_210777_000025_000000",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/c491245ff125f90d5848f5b134f9f9f80d1fcc366d2d07d40df46f79f9cc29a8.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/237_134493_000006_000004.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "c491245ff125f90d5848f5b134f9f9f80d1fcc366d2d07d40df46f79f9cc29a8",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_237_134493_000006_000004",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/d45e597fda23f17d0af74553c273d21a943a6d544a0d598f943d554dba8a3f54.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/7021_79730_000056_000000.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "d45e597fda23f17d0af74553c273d21a943a6d544a0d598f943d554dba8a3f54",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_7021_79730_000056_000000",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/6956d0bd91eac4a56ecb9c2db47ad5ee75b7170ff6e38a566df309b012e4d7ec.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/1580_141083_000051_000000.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "6956d0bd91eac4a56ecb9c2db47ad5ee75b7170ff6e38a566df309b012e4d7ec",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_1580_141083_000051_000000",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/de56ed2e53637034b3aeb02ea69858961aa7f445cd3c5d4674939d6341cdc6c6.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/7127_75947_000006_000005.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "de56ed2e53637034b3aeb02ea69858961aa7f445cd3c5d4674939d6341cdc6c6",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_7127_75947_000006_000005",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/8ec307919c19f43ce1bd1c6b9293f2b32d8f0ca00e62e051edebca09b9580be7.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/7729_102255_000003_000002.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "8ec307919c19f43ce1bd1c6b9293f2b32d8f0ca00e62e051edebca09b9580be7",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_7729_102255_000003_000002",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/512916e0684683a4a783e1bbe448c3ab8d013d1e3724191a78632cfcfcbfe41f.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/1580_141083_000113_000000.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "512916e0684683a4a783e1bbe448c3ab8d013d1e3724191a78632cfcfcbfe41f",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_1580_141083_000113_000000",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/85976f7dc662b699d1eb86d0ded843a0c7950e2cdd3c8cbb935168b1b07cfc7c.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/121_127105_000007_000003.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "85976f7dc662b699d1eb86d0ded843a0c7950e2cdd3c8cbb935168b1b07cfc7c",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_121_127105_000007_000003",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/456469a6cd87a141af980496fdf46a21c1c0cf3220985ba746392e4f2dcc774a.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/1995_1826_000045_000001.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "456469a6cd87a141af980496fdf46a21c1c0cf3220985ba746392e4f2dcc774a",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_1995_1826_000045_000001",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/21f89ae8d853597ef58ac051c5050bf2c70afb5909da1138aad50f2828ff2460.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/2300_131720_000018_000000.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "21f89ae8d853597ef58ac051c5050bf2c70afb5909da1138aad50f2828ff2460",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_2300_131720_000018_000000",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/4100683dbb622bb1718ceb4b2124587ee71c92db215d258af65a45a337e928a8.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/3570_5694_000014_000012.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "4100683dbb622bb1718ceb4b2124587ee71c92db215d258af65a45a337e928a8",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_3570_5694_000014_000012",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/a5811cc1aa9dccf8e6a469f242a99033f546693dc9bd545e927574c26d35bdc9.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/2300_131720_000039_000010.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "a5811cc1aa9dccf8e6a469f242a99033f546693dc9bd545e927574c26d35bdc9",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_2300_131720_000039_000010",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/1102c74afb1926e29aa23df979a948be69d5417b1538ce7d5a779c8ffe813431.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/1188_133604_000012_000004.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "1102c74afb1926e29aa23df979a948be69d5417b1538ce7d5a779c8ffe813431",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_1188_133604_000012_000004",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/37287aeb8b0bd54e93aabf999ec7154ccbfbddf1b5c00ff3e3a4ff9d3439a6e6.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/3570_5694_000006_000005.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "37287aeb8b0bd54e93aabf999ec7154ccbfbddf1b5c00ff3e3a4ff9d3439a6e6",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_3570_5694_000006_000005",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/c46454dcb18f3a1fbda7278d4fd9532eda4c2e89c707aeaac544ddc0005e88c3.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/4970_29093_000027_000001.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "c46454dcb18f3a1fbda7278d4fd9532eda4c2e89c707aeaac544ddc0005e88c3",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_4970_29093_000027_000001",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/c786a0cf97251fd39355a2e24c563017112419cfe2a01c63c44b6c8b1e2edd85.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/7021_79740_000010_000003.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "c786a0cf97251fd39355a2e24c563017112419cfe2a01c63c44b6c8b1e2edd85",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_7021_79740_000010_000003",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/5bc981e82474b9d1038f4879d9a48684f203c433392d95f89a8077fb5f68ac6e.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/2300_131720_000016_000014.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "5bc981e82474b9d1038f4879d9a48684f203c433392d95f89a8077fb5f68ac6e",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_2300_131720_000016_000014",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/5783a99070537b1bcabac855ec1734da201fb12c0bf2383106e02c069579fb1d.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/908_31957_000025_000001.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "5783a99070537b1bcabac855ec1734da201fb12c0bf2383106e02c069579fb1d",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_908_31957_000025_000001",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/ae74296b9585fba7c77b1e02f19afd063dae2f372eec18da9b50d459e036c7de.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/1580_141083_000108_000000.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "ae74296b9585fba7c77b1e02f19afd063dae2f372eec18da9b50d459e036c7de",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_1580_141083_000108_000000",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/fda48479fe004ddbe865f79ea69b6b9a496a12f2ee86c0df12d601308b4a6655.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/2961_961_000022_000001.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "fda48479fe004ddbe865f79ea69b6b9a496a12f2ee86c0df12d601308b4a6655",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_2961_961_000022_000001",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/4c114bad92429c33beed9eb343bacf635f2154ee1aa24994ab9cd3f9c87a7904.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/4507_16021_000017_000000.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "4c114bad92429c33beed9eb343bacf635f2154ee1aa24994ab9cd3f9c87a7904",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_4507_16021_000017_000000",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/15266a834941b05553fd831608aae462e431bcd6c8cbd22074730171532d03e7.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/237_126133_000035_000000.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "15266a834941b05553fd831608aae462e431bcd6c8cbd22074730171532d03e7",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_237_126133_000035_000000",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/532f45f8c442a0484e379906e9ea638705b23038d3389ddb2f72f4c4d64765c3.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/2830_3980_000012_000000.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "532f45f8c442a0484e379906e9ea638705b23038d3389ddb2f72f4c4d64765c3",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_2830_3980_000012_000000",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/bd99f7d691796ff89a5d124811348b23ebbca541a4c3f3e9b6442e24cd4c4a12.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/4077_13751_000007_000004.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "bd99f7d691796ff89a5d124811348b23ebbca541a4c3f3e9b6442e24cd4c4a12",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_4077_13751_000007_000004",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/b3508b981abd3e71a3e561b032f5534b5fd310d660ba860bcb86d39a0d09c1c2.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/7176_88083_000012_000003.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "b3508b981abd3e71a3e561b032f5534b5fd310d660ba860bcb86d39a0d09c1c2",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_7176_88083_000012_000003",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/9c96a95adbe4fafbbf3776dd0086b7664dd834dda2ce43753e9634a68c7664a2.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/3570_5695_000004_000001.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "9c96a95adbe4fafbbf3776dd0086b7664dd834dda2ce43753e9634a68c7664a2",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_3570_5695_000004_000001",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/afac1066bd61553cd01ea56ed293fbc6511af1c565f6ee0cc2112ac4a9ff8f0c.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/4077_13751_000019_000003.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "afac1066bd61553cd01ea56ed293fbc6511af1c565f6ee0cc2112ac4a9ff8f0c",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_4077_13751_000019_000003",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/e9c4ed25941b2c9b515e264ada1791330b43594909e4b04e8fa46d598bb49503.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/2961_961_000004_000032.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "e9c4ed25941b2c9b515e264ada1791330b43594909e4b04e8fa46d598bb49503",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_2961_961_000004_000032",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/1abf1ed45e8e22ac4d9e8c9797533b5d4edeec081a53b49d1b57b21ba6acd8b6.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/8224_274384_000010_000002.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "1abf1ed45e8e22ac4d9e8c9797533b5d4edeec081a53b49d1b57b21ba6acd8b6",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_8224_274384_000010_000002",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/c9f510dfb791fe82dffa1c97c55135155694e3e7051a1030d5b1beb0e70fad07.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/8555_284447_000019_000001.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "c9f510dfb791fe82dffa1c97c55135155694e3e7051a1030d5b1beb0e70fad07",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_8555_284447_000019_000001",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/7739bd57ee29299f352b8d9059ac92b98b80c1a95f0d09049fa004e3d3faf139.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/3570_5694_000014_000014.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "7739bd57ee29299f352b8d9059ac92b98b80c1a95f0d09049fa004e3d3faf139",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_3570_5694_000014_000014",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/0d1b2aca76ded51bdc6c2ef5b8cacdeec7494eda893b822c5a361bcd1b14dce3.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/237_134500_000036_000003.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "0d1b2aca76ded51bdc6c2ef5b8cacdeec7494eda893b822c5a361bcd1b14dce3",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_237_134500_000036_000003",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/2774693eb2d31215f02db4a0ee25c585fb8da4dc1ef1c292d60ef59e23e87480.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/1089_134691_000003_000000.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "2774693eb2d31215f02db4a0ee25c585fb8da4dc1ef1c292d60ef59e23e87480",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_1089_134691_000003_000000",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/cc1155dbd8464a0005d212624aa03b811246f17783a40f3bc8fc7900afa7e858.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/8455_210777_000018_000002.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "cc1155dbd8464a0005d212624aa03b811246f17783a40f3bc8fc7900afa7e858",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_8455_210777_000018_000002",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/80fee669dc62865b47fafb5ce2f80a08636229a73c51c2dacb7edb10dd4614f6.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/2961_961_000004_000006.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "80fee669dc62865b47fafb5ce2f80a08636229a73c51c2dacb7edb10dd4614f6",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_2961_961_000004_000006",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/31b2436fafdb74e1e95c8894b994f6a20f29062afab78a5a52fc3c9530914fb1.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/2300_131720_000002_000002.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "31b2436fafdb74e1e95c8894b994f6a20f29062afab78a5a52fc3c9530914fb1",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_2300_131720_000002_000002",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/30e5deef5113b817f356d2b2d8c6345d2a4a901dff14f3b1dae99fab28a52ca0.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/1089_134686_000009_000003.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "30e5deef5113b817f356d2b2d8c6345d2a4a901dff14f3b1dae99fab28a52ca0",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_1089_134686_000009_000003",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/9a8e87bd606b4a74fc2176f637205e68cc8507261e1a0391b9dd4f5b96c4014d.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/7021_79730_000067_000001.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "9a8e87bd606b4a74fc2176f637205e68cc8507261e1a0391b9dd4f5b96c4014d",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_7021_79730_000067_000001",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/02ffb699edb62fd1806a7495b097e7310becac0053e409f5ea704bf4f970d2ea.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/7021_85628_000008_000001.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "02ffb699edb62fd1806a7495b097e7310becac0053e409f5ea704bf4f970d2ea",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_7021_85628_000008_000001",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/fd29a44d65dfc785895823b5924b1a63335744ccea5dc5f1f5007fcc8d92dc56.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/4992_23283_000047_000000.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "fd29a44d65dfc785895823b5924b1a63335744ccea5dc5f1f5007fcc8d92dc56",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_4992_23283_000047_000000",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/ba0892a77e85342cffc037606633a904905a16e8d4a1d70323d941eb45dae389.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/121_127105_000008_000001.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "ba0892a77e85342cffc037606633a904905a16e8d4a1d70323d941eb45dae389",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_121_127105_000008_000001",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/36a20a99614982496859a3074a57e15b010a1396b1294e932cb2580a67f0f499.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/7021_79759_000004_000004.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "36a20a99614982496859a3074a57e15b010a1396b1294e932cb2580a67f0f499",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_7021_79759_000004_000004",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/7b6d3c3dc09f357cf0f453ef121f16d545c5bb16559204718fabf1d1ed0aeabd.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/7021_85628_000004_000002.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "7b6d3c3dc09f357cf0f453ef121f16d545c5bb16559204718fabf1d1ed0aeabd",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_7021_85628_000004_000002",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/058c0f156aa59e6cb2a03cf0ffe7854ddb9e5dab04336de2303c929dc8a5641d.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/8230_279154_000011_000003.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "058c0f156aa59e6cb2a03cf0ffe7854ddb9e5dab04336de2303c929dc8a5641d",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_8230_279154_000011_000003",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/e397c7e67de5fbda621742bc09906c653de78115bdc88df224c362197632f854.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/5105_28241_000005_000000.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "e397c7e67de5fbda621742bc09906c653de78115bdc88df224c362197632f854",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_5105_28241_000005_000000",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/4194fcc0f185d038e2948e9011182f09193fb45913dadb4ded41ee9a478e3c41.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/2300_131720_000024_000004.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "4194fcc0f185d038e2948e9011182f09193fb45913dadb4ded41ee9a478e3c41",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_2300_131720_000024_000004",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/8dee6ea80e5fedab11f6af0ccac310cf0573724a4e6e9bcaa2030fc396903b8a.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/7176_88083_000016_000003.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "8dee6ea80e5fedab11f6af0ccac310cf0573724a4e6e9bcaa2030fc396903b8a",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_7176_88083_000016_000003",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/d61038d8a1079b860227c1d838e567717be4cc02f864f44dece49495ad03ed7f.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/7176_88083_000013_000001.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "d61038d8a1079b860227c1d838e567717be4cc02f864f44dece49495ad03ed7f",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_7176_88083_000013_000001",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/29385c69d48a67866266279c5f6d68964e9c1db0cb8856dd2f00a8353f3e4ebf.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/8230_279154_000011_000001.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "29385c69d48a67866266279c5f6d68964e9c1db0cb8856dd2f00a8353f3e4ebf",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_8230_279154_000011_000001",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/7c7b45eba993b827e065d1366cf43e4e8a54554e6b9b2a53d4f1f5572097162a.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/2830_3980_000011_000001.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "7c7b45eba993b827e065d1366cf43e4e8a54554e6b9b2a53d4f1f5572097162a",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_2830_3980_000011_000001",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/b7f1e2a6b27a75e3ab7c227326f29b2446d82b402800e454581c3fa178f5a1ea.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/8463_294828_000014_000002.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "b7f1e2a6b27a75e3ab7c227326f29b2446d82b402800e454581c3fa178f5a1ea",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_8463_294828_000014_000002",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/fc78b3526c12475fa39ac7b7c9cee77801fd78a34ed5834cc422e551f00f1a4a.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/5639_40744_000005_000001.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "fc78b3526c12475fa39ac7b7c9cee77801fd78a34ed5834cc422e551f00f1a4a",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_5639_40744_000005_000001",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/82806de7a5ea4ce9557d8479a63f0b3989cd7c92b4d958962c6faab32bb83359.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/8455_210777_000012_000000.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "82806de7a5ea4ce9557d8479a63f0b3989cd7c92b4d958962c6faab32bb83359",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_8455_210777_000012_000000",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/c03619019fd41e80a04f68c722221d764e51ba2e03bb7d9e9c061f08aec8eb12.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/4970_29093_000027_000000.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "c03619019fd41e80a04f68c722221d764e51ba2e03bb7d9e9c061f08aec8eb12",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_4970_29093_000027_000000",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/5c3b72d29df0de53b2521751aae97c1e24e3e279e70070241e29e5f91b536c36.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/260_123288_000038_000000.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "5c3b72d29df0de53b2521751aae97c1e24e3e279e70070241e29e5f91b536c36",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_260_123288_000038_000000",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/ed7d126e14a2f436706e2bcb92fabeecf57b313f5c8bbabe0cc64327cf975185.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/8455_210777_000005_000002.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "ed7d126e14a2f436706e2bcb92fabeecf57b313f5c8bbabe0cc64327cf975185",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_8455_210777_000005_000002",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/af4e13ddb1352c9124e4b302d03d3ffe6945226adf95e93250dee4d184ab211a.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/237_134493_000015_000001.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "af4e13ddb1352c9124e4b302d03d3ffe6945226adf95e93250dee4d184ab211a",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_237_134493_000015_000001",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/89e85ed004d260037710541384f3cbfdeb2f68ad420d73b7c278ec9108a101f7.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/1188_133604_000024_000001.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "89e85ed004d260037710541384f3cbfdeb2f68ad420d73b7c278ec9108a101f7",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_1188_133604_000024_000001",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/76b897d93da14df9e943a39516fa72d3810a28c07cf46e9b132b762136425491.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/1580_141083_000016_000003.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "76b897d93da14df9e943a39516fa72d3810a28c07cf46e9b132b762136425491",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_1580_141083_000016_000003",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/e84521faeccf60b0a6cd87cd0254c416ff74f020294f7ea872f04ace5e874a69.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/908_31957_000011_000001.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "e84521faeccf60b0a6cd87cd0254c416ff74f020294f7ea872f04ace5e874a69",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_908_31957_000011_000001",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/a63a99e917b427837c72dc9b3b328432f81d9d56469a9cd745fc761a1f365ec4.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/7176_88083_000012_000005.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "a63a99e917b427837c72dc9b3b328432f81d9d56469a9cd745fc761a1f365ec4",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_7176_88083_000012_000005",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/27b4050f4dc0e803227aafa5a155d61bb5193db18116d5b00926fb012750e210.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/4446_2271_000006_000001.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "27b4050f4dc0e803227aafa5a155d61bb5193db18116d5b00926fb012750e210",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_4446_2271_000006_000001",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/9ff53e6d8bcf59be7c12c4e6704f35a921bf5154d70023cd4dd04222c951e6d1.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/121_127105_000007_000004.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "9ff53e6d8bcf59be7c12c4e6704f35a921bf5154d70023cd4dd04222c951e6d1",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_121_127105_000007_000004",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/f3d3cfb8039d8e69bd87b2cfaac85337481cff814a91915884ae50921320d005.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/5639_40744_000012_000007.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "f3d3cfb8039d8e69bd87b2cfaac85337481cff814a91915884ae50921320d005",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_5639_40744_000012_000007",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/30246ed4fe07a8570771c8484a913d7398a1241ceb61716842ce0394d68a651f.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/1995_1837_000017_000000.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "30246ed4fe07a8570771c8484a913d7398a1241ceb61716842ce0394d68a651f",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_1995_1837_000017_000000",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/69548cd96220fec7cae64ea96edf91d002b73066037042d981b806b3c5540b68.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/8463_294825_000026_000000.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "69548cd96220fec7cae64ea96edf91d002b73066037042d981b806b3c5540b68",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_8463_294825_000026_000000",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/7103c0952d4de06862a17704d99b4a63396bb8ee95dbc9a0afec43fc9045a8ba.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/3575_170457_000044_000014.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "7103c0952d4de06862a17704d99b4a63396bb8ee95dbc9a0afec43fc9045a8ba",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_3575_170457_000044_000014",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/349c1a2a6691c7d35598a7079d0d0bbced28765e59c5d5d415d93814b8988244.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/8455_210777_000012_000003.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "349c1a2a6691c7d35598a7079d0d0bbced28765e59c5d5d415d93814b8988244",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_8455_210777_000012_000003",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/687aed12012f5d9d25b65520350d6e11cd8a09c48a5efc6e8cfef67fe3611a3a.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/4970_29093_000017_000000.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "687aed12012f5d9d25b65520350d6e11cd8a09c48a5efc6e8cfef67fe3611a3a",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_4970_29093_000017_000000",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/d321cbbc3093cb3d49c583f9b072c20f8612946555a7b6e3ea25d3b50a4768ae.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/5683_32865_000005_000002.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "d321cbbc3093cb3d49c583f9b072c20f8612946555a7b6e3ea25d3b50a4768ae",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_5683_32865_000005_000002",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/d85f47ad56ff2529283588130239ad7e43316e5212e28be5b5659957dfd0fb0e.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/8224_274384_000000_000001.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "d85f47ad56ff2529283588130239ad7e43316e5212e28be5b5659957dfd0fb0e",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_8224_274384_000000_000001",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/60b81c11bd7f865ee6067d769dee1c3feeb89ca79ea1947bc89c16691379bce0.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/3570_5694_000014_000005.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "60b81c11bd7f865ee6067d769dee1c3feeb89ca79ea1947bc89c16691379bce0",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_3570_5694_000014_000005",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/d2039a03725034deb3f05e41e159975be1fe9340074b0865931c0dd07e72ea92.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/3570_5696_000002_000001.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "d2039a03725034deb3f05e41e159975be1fe9340074b0865931c0dd07e72ea92",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_3570_5696_000002_000001",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/c14f3e5dde3526a214f0c295b8a1c9574eced1eabd3165c3b42745d0f2e6bf30.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/1089_134691_000002_000001.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "c14f3e5dde3526a214f0c295b8a1c9574eced1eabd3165c3b42745d0f2e6bf30",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_1089_134691_000002_000001",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/8fbc43b6e8acb471ab88c5949152f677c951a38a1051d27732f0d98a5d818281.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/237_126133_000032_000000.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "8fbc43b6e8acb471ab88c5949152f677c951a38a1051d27732f0d98a5d818281",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_237_126133_000032_000000",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/6a0dea732a5f22a2f52b4e9dad9f90734f253ce3a4cf0e568f2108f7493f9193.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/2300_131720_000016_000005.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "6a0dea732a5f22a2f52b4e9dad9f90734f253ce3a4cf0e568f2108f7493f9193",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_2300_131720_000016_000005",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/71d3ebaaae1d5a6f170d08d657067c4e5497c3851bdbae9ca4cb194b1db6d502.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/5639_40744_000015_000000.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "71d3ebaaae1d5a6f170d08d657067c4e5497c3851bdbae9ca4cb194b1db6d502",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_5639_40744_000015_000000",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/a1903f918d6c7eeaaf7b2a61444d871202757d2a44d5b917336a38d62516ecf8.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/7021_85628_000006_000000.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "a1903f918d6c7eeaaf7b2a61444d871202757d2a44d5b917336a38d62516ecf8",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_7021_85628_000006_000000",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/35caa6aa4ad16ad7ed13056f720597c00b038943021986a9d32599f78f62e80f.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/7176_88083_000016_000004.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "35caa6aa4ad16ad7ed13056f720597c00b038943021986a9d32599f78f62e80f",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_7176_88083_000016_000004",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/9655244e553f3e4bb14100cd12fcc25fede1eccc7ad75aae3613250e11bd894a.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/237_126133_000055_000003.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "9655244e553f3e4bb14100cd12fcc25fede1eccc7ad75aae3613250e11bd894a",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_237_126133_000055_000003",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/7782778ebc0b482a439913928b6c2ceb975c059392181a9c2e63245adc1804ec.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/7176_88083_000005_000005.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "7782778ebc0b482a439913928b6c2ceb975c059392181a9c2e63245adc1804ec",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_7176_88083_000005_000005",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/754d02cab0fc2a549e009163d2f75a0b4d3767e5bc78b9e09a4c5d381f7ae274.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/4970_29095_000003_000001.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "754d02cab0fc2a549e009163d2f75a0b4d3767e5bc78b9e09a4c5d381f7ae274",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_4970_29095_000003_000001",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/b37427efbb75fa169e153bd4ec668aabf910fa5efd6c247fb8fc014054d7e898.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/8555_284447_000012_000000.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "b37427efbb75fa169e153bd4ec668aabf910fa5efd6c247fb8fc014054d7e898",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_8555_284447_000012_000000",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/7cab440a925d70b6c2606809563af01a3940c7d5e8b06c34efbe3a5b56bf9193.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/1995_1836_000003_000003.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "7cab440a925d70b6c2606809563af01a3940c7d5e8b06c34efbe3a5b56bf9193",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_1995_1836_000003_000003",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/80fda778f774207dd1b1c344351bf0f5debfe51fb398641f6479a4a95282c1e1.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/7127_75946_000040_000008.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "80fda778f774207dd1b1c344351bf0f5debfe51fb398641f6479a4a95282c1e1",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_7127_75946_000040_000008",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/159bb59ae4556493e9fedc8a3cbedeb0f740921d8883c226f2fc26912e08dd7a.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/1580_141084_000071_000000.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "159bb59ae4556493e9fedc8a3cbedeb0f740921d8883c226f2fc26912e08dd7a",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_1580_141084_000071_000000",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/79398e7b26fe361dc13fee7b52b22cad3abaf6ab6e92fad8caeecee073e3bc2a.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/2300_131720_000005_000003.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "79398e7b26fe361dc13fee7b52b22cad3abaf6ab6e92fad8caeecee073e3bc2a",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_2300_131720_000005_000003",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/ab75a0d03e5efcdb11ee878a1b9f8513b51036273dfc3b56255047d9ca7109f1.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/1089_134691_000025_000001.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "ab75a0d03e5efcdb11ee878a1b9f8513b51036273dfc3b56255047d9ca7109f1",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_1089_134691_000025_000001",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/c75d9804969f7f39e850e0413eab69bb2c561a51e018d24b03af7f4e0df1f774.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/1995_1836_000003_000002.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "c75d9804969f7f39e850e0413eab69bb2c561a51e018d24b03af7f4e0df1f774",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_1995_1836_000003_000002",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/aab748b61d4648b1b1088b268bb70060b49af44d552fdaee7f726813792791d2.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/1284_1181_000034_000000.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "aab748b61d4648b1b1088b268bb70060b49af44d552fdaee7f726813792791d2",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_1284_1181_000034_000000",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/73ee9463f40234e5bb8a4e36a1730b87a55de5e8d75f8aa6dd7fb15a37dda65f.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/260_123440_000010_000002.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "73ee9463f40234e5bb8a4e36a1730b87a55de5e8d75f8aa6dd7fb15a37dda65f",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_260_123440_000010_000002",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/4721ad02d268fb3c5107e6f3a02d64cafe8f4ca2c12b4d5ee8209aa64e1e5da3.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/1580_141084_000031_000000.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "4721ad02d268fb3c5107e6f3a02d64cafe8f4ca2c12b4d5ee8209aa64e1e5da3",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_1580_141084_000031_000000",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/f38c7f19c693be86589f17b8fedf7266f3ffa619992e681bab1a745f42daa2b6.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/1089_134686_000024_000004.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "f38c7f19c693be86589f17b8fedf7266f3ffa619992e681bab1a745f42daa2b6",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_1089_134686_000024_000004",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/ade4bb90ad16c6b5e532aa0f580d0fe3fe9df8513d383dac85976e6d3578fe55.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/4992_23283_000033_000000.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "ade4bb90ad16c6b5e532aa0f580d0fe3fe9df8513d383dac85976e6d3578fe55",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_4992_23283_000033_000000",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/ce553aab74f236b9905ff724bd6e0c7a3faef168c329f82d955f911a5e40fc35.flac",
+    "expected": "HUMAN",
+    "dataset": "SONAR",
+    "group": "human",
+    "source_path": "real_samples/1995_1837_000014_000001.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "ce553aab74f236b9905ff724bd6e0c7a3faef168c329f82d955f911a5e40fc35",
+    "notes": {
+      "utterance_id": "SONAR_real_samples_1995_1837_000014_000001",
+      "system": "real_samples",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/eef689e467962988387da65435cb772278aabf310718f464ef7b81b9470dbee4.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "xTTS",
+    "source_path": "xTTS/260_20.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "eef689e467962988387da65435cb772278aabf310718f464ef7b81b9470dbee4",
+    "notes": {
+      "utterance_id": "SONAR_xTTS_260_20",
+      "system": "xTTS",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/aa514625fec6731bc8c940a1e9acfff8f4d538c14c20ef2e27624f9ac0b9a3e5.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "xTTS",
+    "source_path": "xTTS/4088_16.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "aa514625fec6731bc8c940a1e9acfff8f4d538c14c20ef2e27624f9ac0b9a3e5",
+    "notes": {
+      "utterance_id": "SONAR_xTTS_4088_16",
+      "system": "xTTS",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/f7568ec93a7d4616d9590a644768942f0451fe99f119d4c640162ee64abbd0e6.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "xTTS",
+    "source_path": "xTTS/4214_33.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "f7568ec93a7d4616d9590a644768942f0451fe99f119d4c640162ee64abbd0e6",
+    "notes": {
+      "utterance_id": "SONAR_xTTS_4214_33",
+      "system": "xTTS",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/b276516ae23038cc9bbc6b7c1102d3655fdeae9410e44c9cb974b6c7dde7728e.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "xTTS",
+    "source_path": "xTTS/260_49.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "b276516ae23038cc9bbc6b7c1102d3655fdeae9410e44c9cb974b6c7dde7728e",
+    "notes": {
+      "utterance_id": "SONAR_xTTS_260_49",
+      "system": "xTTS",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/a4604172c296148bb61e771b5eb3b61211a8106fae4e6bb55a225e431936f60b.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "xTTS",
+    "source_path": "xTTS/237_43.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "a4604172c296148bb61e771b5eb3b61211a8106fae4e6bb55a225e431936f60b",
+    "notes": {
+      "utterance_id": "SONAR_xTTS_237_43",
+      "system": "xTTS",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/3f4d2543745751647eec920bc5e9587aad0719f3ebd4b39230a4fa67d2a2a27f.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "xTTS",
+    "source_path": "xTTS/4088_10.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "3f4d2543745751647eec920bc5e9587aad0719f3ebd4b39230a4fa67d2a2a27f",
+    "notes": {
+      "utterance_id": "SONAR_xTTS_4088_10",
+      "system": "xTTS",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/6c704d93e0dcaff4e1074cad3d7b36cd9aa4710a08151f8f919088202d9b4aa1.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "xTTS",
+    "source_path": "xTTS/1963_29.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "6c704d93e0dcaff4e1074cad3d7b36cd9aa4710a08151f8f919088202d9b4aa1",
+    "notes": {
+      "utterance_id": "SONAR_xTTS_1963_29",
+      "system": "xTTS",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/d4f19ded279f3f498d03ba03a15cdbf941fa414d4572f2edc08b53dba7ea61ee.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "xTTS",
+    "source_path": "xTTS/260_38.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "d4f19ded279f3f498d03ba03a15cdbf941fa414d4572f2edc08b53dba7ea61ee",
+    "notes": {
+      "utterance_id": "SONAR_xTTS_260_38",
+      "system": "xTTS",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/714518aecbfa4b97ab08277fd6a62f24e7c95eae18b17121987ee2e616a57de3.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "xTTS",
+    "source_path": "xTTS/7021_7.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "714518aecbfa4b97ab08277fd6a62f24e7c95eae18b17121987ee2e616a57de3",
+    "notes": {
+      "utterance_id": "SONAR_xTTS_7021_7",
+      "system": "xTTS",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/8a18f5d3714e5ebafc336f572a5cce6d24d4d231afd00c299b676be3a4ef49d0.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "xTTS",
+    "source_path": "xTTS/2391_24.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "8a18f5d3714e5ebafc336f572a5cce6d24d4d231afd00c299b676be3a4ef49d0",
+    "notes": {
+      "utterance_id": "SONAR_xTTS_2391_24",
+      "system": "xTTS",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/5c2ca5054b27fa6ac81107d91c30aa03afb71ad7dc1a60a1ffe4bf17225b4d03.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "xTTS",
+    "source_path": "xTTS/2518_37.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "5c2ca5054b27fa6ac81107d91c30aa03afb71ad7dc1a60a1ffe4bf17225b4d03",
+    "notes": {
+      "utterance_id": "SONAR_xTTS_2518_37",
+      "system": "xTTS",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/969e53880bbecb8d310bcc4952ea88e4438df5a04468e9507ce872ed14976309.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "xTTS",
+    "source_path": "xTTS/6829_39.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "969e53880bbecb8d310bcc4952ea88e4438df5a04468e9507ce872ed14976309",
+    "notes": {
+      "utterance_id": "SONAR_xTTS_6829_39",
+      "system": "xTTS",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/4cef78c8822a95c4d7037f63865fc515ec51188737f64f3ecb94509482a0397d.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "xTTS",
+    "source_path": "xTTS/3526_24.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "4cef78c8822a95c4d7037f63865fc515ec51188737f64f3ecb94509482a0397d",
+    "notes": {
+      "utterance_id": "SONAR_xTTS_3526_24",
+      "system": "xTTS",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/99f804ea08154192c5a792ca453416cda0f24c17f953aa26876577a1e396b21e.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "xTTS",
+    "source_path": "xTTS/260_40.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "99f804ea08154192c5a792ca453416cda0f24c17f953aa26876577a1e396b21e",
+    "notes": {
+      "utterance_id": "SONAR_xTTS_260_40",
+      "system": "xTTS",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/232aa97b525804a76060944e3a1f6fe6abb3092a3809c74cd436eda4ddbb6399.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "xTTS",
+    "source_path": "xTTS/1963_47.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "232aa97b525804a76060944e3a1f6fe6abb3092a3809c74cd436eda4ddbb6399",
+    "notes": {
+      "utterance_id": "SONAR_xTTS_1963_47",
+      "system": "xTTS",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/1cda0637255879b221dd9a8a39ad71fe01b8cc300397ec68c873b83e44a4ed65.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "xTTS",
+    "source_path": "xTTS/260_25.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "1cda0637255879b221dd9a8a39ad71fe01b8cc300397ec68c873b83e44a4ed65",
+    "notes": {
+      "utterance_id": "SONAR_xTTS_260_25",
+      "system": "xTTS",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/338a2caadb1e5319f0a90f89031aac3aae83a40e5115576d2ab8019f79cbe11e.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "xTTS",
+    "source_path": "xTTS/2518_14.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "338a2caadb1e5319f0a90f89031aac3aae83a40e5115576d2ab8019f79cbe11e",
+    "notes": {
+      "utterance_id": "SONAR_xTTS_2518_14",
+      "system": "xTTS",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/e1006e7ca5c02f077a6e4a2de3a1dfe522aab341b7f130b88f3e84ab3ad840f1.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "xTTS",
+    "source_path": "xTTS/4088_6.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "e1006e7ca5c02f077a6e4a2de3a1dfe522aab341b7f130b88f3e84ab3ad840f1",
+    "notes": {
+      "utterance_id": "SONAR_xTTS_4088_6",
+      "system": "xTTS",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/264d334b81d23b1987d464177d251c2c8c9e3bc9f5c2607d30431ef091053fb3.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "xTTS",
+    "source_path": "xTTS/4446_6.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "264d334b81d23b1987d464177d251c2c8c9e3bc9f5c2607d30431ef091053fb3",
+    "notes": {
+      "utterance_id": "SONAR_xTTS_4446_6",
+      "system": "xTTS",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/49da84c0107607e62d34f413a76c53c955ec3b09144efbcb3889c2f8d4a2e434.flac",
+    "expected": "AI",
+    "dataset": "SONAR",
+    "group": "xTTS",
+    "source_path": "xTTS/3526_48.wav",
+    "dataset_revision": "ea98ab87279154094d2000198dd4b885c69aefaa",
+    "sha256": "49da84c0107607e62d34f413a76c53c955ec3b09144efbcb3889c2f8d4a2e434",
+    "notes": {
+      "utterance_id": "SONAR_xTTS_3526_48",
+      "system": "xTTS",
+      "language": "en"
+    }
+  },
+  {
+    "file": "work/qa/audio/libritts-1188-original.wav",
+    "expected": "HUMAN",
+    "dataset": "SWAN-LibriTTS-DF-demos",
+    "group": "human",
+    "source_url": "https://swan-df.github.io/audios/libritts-1188-original.wav",
+    "sha256": "a906eecf2615e5862cab626bf279ad355f688b99f576606a3e6f0b540670ca78"
+  },
+  {
+    "file": "work/qa/audio/libritts-1188-to-121-voice-conversion.wav",
+    "expected": "AI",
+    "dataset": "SWAN-LibriTTS-DF-demos",
+    "group": "YourTTS-voice-conversion",
+    "source_url": "https://swan-df.github.io/audios/libritts-1188-to-121-voice-conversion.wav",
+    "sha256": "03d81b7e9a129ac5511c17d839679c8b3630b117837ebcf21dc67fa075cc6acf"
+  },
+  {
+    "file": "work/qa/audio/libritts-1188-tts-Adaspeech.wav",
+    "expected": "AI",
+    "dataset": "SWAN-LibriTTS-DF-demos",
+    "group": "AdaSpeech-adapted",
+    "source_url": "https://swan-df.github.io/audios/libritts-1188-tts-Adaspeech.wav",
+    "sha256": "b45231c5cc54d33caa1ee9997609da01b2da952652fd4839d8601512b680c2ce"
+  },
+  {
+    "file": "work/qa/audio/libritts-1188-tts-tortoise-diffusion.wav",
+    "expected": "AI",
+    "dataset": "SWAN-LibriTTS-DF-demos",
+    "group": "TorToiSe-tuned",
+    "source_url": "https://swan-df.github.io/audios/libritts-1188-tts-tortoise-diffusion.wav",
+    "sha256": "842f9bb39bce9cce1a7505b5d8c9c3123168222ecbf6b66b78af7dd283d969a3"
+  },
+  {
+    "file": "work/qa/audio/libritts-121-original.wav",
+    "expected": "HUMAN",
+    "dataset": "SWAN-LibriTTS-DF-demos",
+    "group": "human",
+    "source_url": "https://swan-df.github.io/audios/libritts-121-original.wav",
+    "sha256": "390202806881435873152baa53c2c1e943d8351d627c03077c60c2722c5b338d"
+  },
+  {
+    "file": "work/qa/audio/libritts-121-to-1188-voice-conversion.wav",
+    "expected": "AI",
+    "dataset": "SWAN-LibriTTS-DF-demos",
+    "group": "YourTTS-voice-conversion",
+    "source_url": "https://swan-df.github.io/audios/libritts-121-to-1188-voice-conversion.wav",
+    "sha256": "b1280a4b5695a79bc2aff537818754b59ecd3834290320c2f5c0c5fc0123cac2"
+  },
+  {
+    "file": "work/qa/audio/libritts-121-tts-Adaspeech.wav",
+    "expected": "AI",
+    "dataset": "SWAN-LibriTTS-DF-demos",
+    "group": "AdaSpeech-adapted",
+    "source_url": "https://swan-df.github.io/audios/libritts-121-tts-Adaspeech.wav",
+    "sha256": "a61fe39b945f7ca372976064b69fc4f4ca27123901457d938d9d857766bac6a0"
+  },
+  {
+    "file": "work/qa/audio/libritts-121-tts-tortoise-diffusion.wav",
+    "expected": "AI",
+    "dataset": "SWAN-LibriTTS-DF-demos",
+    "group": "TorToiSe-tuned",
+    "source_url": "https://swan-df.github.io/audios/libritts-121-tts-tortoise-diffusion.wav",
+    "sha256": "ef36cb3d99e3df1f92f6f2cc71ca726ffb5b39f62b6d2bf16b7271a60f315b91"
+  }
+]

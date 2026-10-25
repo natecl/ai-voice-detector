@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Voice Check — Local audio detector</title>
+<style>
+:root{font-family:ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#203b39;background:#f4f5ef;font-synthesis:none}*{box-sizing:border-box}body{margin:0}main{max-width:1020px;margin:0 auto;padding:38px 28px 60px}header{display:flex;justify-content:space-between;align-items:center;gap:20px}.brand{font-weight:750;letter-spacing:-.6px;font-size:23px;display:flex;gap:10px;align-items:center}.mark{background:#204c45;color:#e3edb5;padding:8px 11px;border-radius:12px;font-size:20px}.pill{font-size:12px;background:#e5ecdf;border:1px solid #d3ddca;border-radius:30px;padding:9px 13px;white-space:nowrap}.dot{display:inline-block;width:7px;height:7px;background:#578c60;border-radius:50%;margin-right:6px}.intro{margin:62px 0 28px}.eyebrow{font-size:11px;text-transform:uppercase;letter-spacing:2px;font-weight:700;color:#738375}h1{font-size:clamp(34px,5vw,49px);letter-spacing:-2px;line-height:1.1;margin:12px 0 18px;max-width:650px}p{color:#64736c;line-height:1.65;font-size:15px;margin:8px 0}.grid{display:grid;grid-template-columns:1.12fr 1fr;gap:20px}.panel{background:#fffef9;border:1px solid #dce1d5;border-radius:22px;padding:27px;box-shadow:0 5px 18px #213d3404}h2{font-size:17px;margin:0 0 20px;letter-spacing:-.3px}.label{font-size:11px;letter-spacing:1.2px;text-transform:uppercase;color:#7b887c;font-weight:650}.drop{display:block;border:1.5px dashed #bdcbb8;border-radius:14px;text-align:center;padding:26px 12px;cursor:pointer;background:#f8faf3;transition:.15s}.drop:hover,.drop.drag{background:#edf3e6;border-color:#507b5d}.drop strong{font-size:15px;display:block;margin:9px}.drop small{color:#7d897d;font-size:12px}.uploadIcon{font-size:25px;color:#54715b}input[type=file]{position:absolute;width:1px;height:1px;opacity:0}.drop:focus-within{outline:3px solid #93b397;outline-offset:3px}.or{display:flex;align-items:center;gap:15px;font-size:11px;color:#9ba297;margin:19px 0}.or:before,.or:after{content:"";height:1px;flex:1;background:#e5e7dd}button{font:inherit;font-size:14px;border-radius:11px;padding:13px 17px;border:1px solid #d4ddce;background:transparent;color:#284b40;cursor:pointer;font-weight:650;transition:.15s}button:hover{background:#eaf0e3}button:disabled{opacity:.45;cursor:not-allowed}button:focus-visible{outline:3px solid #93b397;outline-offset:3px}.record{width:100%;display:flex;align-items:center;justify-content:center;gap:9px}.recording{color:#ab493c;border-color:#d9a395;background:#fff0e9}.mic{width:8px;height:13px;border:1.5px solid currentColor;border-radius:8px;display:inline-block}.primary{background:#214f45;color:white;border-color:#214f45;width:100%;margin-top:18px;padding:15px}.primary:hover{background:#173e35}.file{margin-top:18px;border-top:1px solid #e5e7dd;padding-top:15px}.fileline{display:flex;align-items:center;justify-content:space-between;gap:8px}.filename{font-size:13px;font-weight:650;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.clear{padding:5px 9px;font-size:11px;border:0;color:#7e887a}audio{width:100%;height:34px;margin-top:12px}.helper{font-size:12px;margin-top:15px}.result{min-height:360px;display:flex;flex-direction:column}.empty{flex:1;display:flex;flex-direction:column;justify-content:center;text-align:center;padding:20px 0}.waves{display:flex;gap:5px;align-items:center;justify-content:center;height:65px;margin:5px 0 20px}.waves i{display:block;width:6px;background:#d4dfcb;border-radius:6px;height:var(--h)}.empty strong{font-size:17px;font-weight:600}.empty p{font-size:13px;max-width:260px;margin:10px auto}.verdict{font-size:38px;letter-spacing:-1.3px;margin:24px 0 7px;line-height:1.15}.human{color:#28614c}.ai{color:#b36a32}.resultnote{font-size:13px}.scoreRow{display:flex;justify-content:space-between;align-items:baseline;margin-top:25px;font-size:12px;color:#7b867b}.score{font-size:20px;color:#294b40;font-variant-numeric:tabular-nums}.meter{height:8px;background:#e9eee2;border-radius:10px;position:relative;margin:12px 0}.fill{height:100%;background:#8baf7d;border-radius:10px;width:0}.threshold{position:absolute;left:50%;top:-4px;height:16px;width:2px;background:#9aa88f}.scale{display:flex;justify-content:space-between;font-size:10px;color:#8b9585}.details{border-top:1px solid #e3e8dc;margin-top:24px;padding-top:12px;font-size:12px;color:#7e887a;line-height:1.9}.error{color:#a44232;background:#fff0e9;border:1px solid #edd2c3;border-radius:10px;padding:12px;font-size:13px;line-height:1.5;margin-top:14px}.footer{display:flex;gap:24px;margin-top:25px;color:#7c887a;font-size:12px;line-height:1.7}.footer div{flex:1}.footer strong{color:#566d5b;font-weight:600}[hidden]{display:none!important}.busy .waves i{animation:pulse 1s infinite alternate;animation-delay:var(--d)}@keyframes pulse{to{transform:scaleY(.45);background:#82a87a}}@media(prefers-reduced-motion:reduce){.busy .waves i{animation:none}}@media(max-width:700px){main{padding:25px 18px}.intro{margin-top:40px}.grid{grid-template-columns:1fr}.panel{padding:23px}.result{min-height:320px}.footer{flex-direction:column;gap:10px}h1{letter-spacing:-1.5px}.pill{font-size:10px}}
+</style>
+
+<script>if(new URLSearchParams(location.search).has('widget')){document.documentElement.classList.add('widget');history.scrollRestoration='manual';window.addEventListener('load',()=>window.scrollTo(0,0));}</script>
+
+
+
+
+
+
+<style>
+#overlayBar{display:none}
+html.widget,html.widget body{background:transparent!important;overflow:hidden;margin:0}
+html.widget main{display:none!important}
+html.widget #overlayBar{display:block;position:relative;width:148px;height:34px;font-family:-apple-system,BlinkMacSystemFont,sans-serif}
+html.widget #overlayExpand,html.widget #overlayHide,html.widget #overlaySummary strong{display:none}
+html.widget #overlayListen{position:absolute;left:0;top:0;width:81px;height:34px;border:0;padding:0;background:transparent;border-radius:18px;outline-offset:-2px}
+#pillSurface{position:absolute;left:20px;top:13px;width:40px;height:8px;background:#0008;border:1px solid #ffffff80;border-radius:6px;display:flex;align-items:center;justify-content:center;transition:width .1s cubic-bezier(.05,.6,.4,.95),height .1s cubic-bezier(.05,.6,.4,.95),top .1s cubic-bezier(.05,.6,.4,.95),left .1s cubic-bezier(.05,.6,.4,.95),background .1s ease,border-color .1s ease}
+#captureMark{width:29px;height:16px;opacity:0;color:#deddd7;transition:opacity .1s ease}
+html.widget #overlayListen:hover #pillSurface,html.widget #overlayListen:focus-visible #pillSurface{left:15px;top:2px;width:50px;height:30px;border-radius:18px;background:#242424;border-color:#525250}
+html.widget #overlayListen:hover #captureMark,html.widget #overlayListen:focus-visible #captureMark{opacity:.65}
+html.widget.live #overlayListen #pillSurface{left:4px;top:2px;width:73px;height:30px;border-radius:18px;background:#101010;border-color:#343432}
+html.widget.live #captureMark{opacity:1}
+html.widget.live #overlayListen:hover #pillSurface{background:#242424}
+html.widget #overlayListen:active #pillSurface{transform:scale(.96)}
+html.widget #overlayListen:focus-visible{outline:2px solid #aaa}
+html.widget #overlaySummary{position:absolute;left:84px;top:6px;max-width:64px;pointer-events:none}
+html.widget #overlayState{display:block;max-width:64px;padding:0 7px;height:22px;line-height:22px;border-radius:11px;background:#191919;border:1px solid #ffffff12;color:#c9c8c3;font-size:10px;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;box-sizing:border-box}
+html.widget #overlayState:empty{display:none}
+html.widget[data-verdict=human] #overlayState{color:#b9dea0}
+html.widget[data-verdict=ai] #overlayState{color:#efb58d}
+@media(prefers-reduced-motion:reduce){#pillSurface,#captureMark{transition:none!important}}
+</style>
+<style>
+html.widget #overlayBar{width:188px}
+html.widget #overlayListen{width:110px}
+#pillSurface{left:35px}
+#captureMark{width:90px;height:18px}
+.captureActions{opacity:0}
+html.widget #overlayListen:hover #pillSurface,html.widget #overlayListen:focus-visible #pillSurface{left:30px}
+html.widget.live #overlayListen #pillSurface{left:4px;width:102.5px}
+html.widget.live .captureActions{opacity:1}
+html.widget #overlaySummary{left:114px;max-width:74px}
+html.widget #overlayState{max-width:74px}
+html.widget[data-phase=error] #pillSurface{border-color:#b86e5e}
+html.widget[data-phase=starting] #captureMark{opacity:.4}
+@media(prefers-reduced-motion:no-preference){#captureMark rect{transition:height 65ms linear,y 65ms linear}}
+</style>
+</head>
+<body><div id="overlayBar">
+<div id="overlaySummary"><strong>Voice Check <span style="color:#aaa">·</span></strong><span id="overlayState" role="status"></span></div>
+<button id="overlayListen" aria-label="Start system listening" title="Start system listening"><span id="pillSurface" aria-hidden="true"><svg id="captureMark" viewBox="0 0 90 18" fill="currentColor"><g class="captureActions"><circle cx="9" cy="9" r="8" fill="#414140"/><path d="m6 6 6 6m0-6-6 6" stroke="#deddd7" stroke-width="1.4" fill="none"/><circle cx="81" cy="9" r="8" fill="#eeeae2"/><path d="m77.5 9 2.2 2.2 4.3-4.4" stroke="#151515" stroke-width="1.5" fill="none"/></g><rect id="waveBar0" x="30" y="7" width="2" height="2" rx=".5"/><rect id="waveBar1" x="34" y="7" width="2" height="2" rx=".5"/><rect id="waveBar2" x="38" y="7" width="2" height="2" rx=".5"/><rect id="waveBar3" x="42" y="7" width="2" height="2" rx=".5"/><rect id="waveBar4" x="46" y="7" width="2" height="2" rx=".5"/><rect id="waveBar5" x="50" y="7" width="2" height="2" rx=".5"/><rect id="waveBar6" x="54" y="7" width="2" height="2" rx=".5"/></svg></span></button>
+<button id="overlayExpand" aria-label="Expand widget" title="Expand widget">⌃</button>
+<button id="overlayHide" aria-label="Hide widget and stop listening" title="Hide and stop">×</button>
+</div><main>
+<header><div class="brand"><span class="mark" aria-hidden="true">≋</span>Voice Check</div><div class="pill"><span class="dot"></span>Runs on your Mac</div></header>
+<section class="intro"><div class="eyebrow">Local audio detector</div><h1>A human voice.<br>Or a synthetic one?</h1><p>Upload a clip or record yourself. Get a prediction in a few seconds.</p></section>
+<div class="grid">
+<section class="panel"><h2>01 &nbsp; Add your audio</h2>
+<div id="systemControls" hidden><button class="record" id="systemListen">Listen to system audio</button><p class="helper" id="systemStatus" role="status">Checks every 5 seconds. Hears all apps; pause other audio.</p><div class="or">OR</div></div>
+<label class="drop" id="drop"><input id="upload" type="file" accept="audio/*,.m4a,.webm,.mp4"><span class="uploadIcon" aria-hidden="true">↥</span><strong>Choose a file or drop it here</strong><small>WAV, MP3, M4A, FLAC, OGG, WebM · up to 25 MB</small></label>
+<div class="or">OR</div><button class="record" id="record"><span class="mic" aria-hidden="true"></span><span id="recordLabel">Record my voice</span></button>
+<div class="file" id="file" hidden><div class="fileline"><span class="filename" id="filename"></span><button class="clear" id="clear" aria-label="Remove selected audio">Remove</button></div><audio id="player" controls></audio></div>
+<button class="primary" id="analyze" disabled>Analyze voice <span aria-hidden="true">↗</span></button>
+<p class="helper" id="hint">Use 5–15 seconds of clear speech. Maximum length: 2 minutes.</p>
+<div class="error" id="error" role="alert" hidden></div>
+</section>
+<section class="panel result" aria-live="polite"><h2>02 &nbsp; Your result</h2>
+<div class="empty" id="empty"><div class="waves" aria-hidden="true"><i style="--h:16px;--d:0s"></i><i style="--h:30px;--d:.1s"></i><i style="--h:46px;--d:.2s"></i><i style="--h:60px;--d:.3s"></i><i style="--h:39px;--d:.4s"></i><i style="--h:25px;--d:.5s"></i><i style="--h:12px;--d:.6s"></i></div><strong id="emptyTitle">Ready when you are</strong><p id="emptyText">Your prediction will appear here after you analyze a clip.</p></div>
+<div id="result" hidden><div class="label">Prediction</div><h3 class="verdict" id="verdict"></h3><p class="resultnote" id="resultNote"></p><div class="scoreRow"><span>Synthetic score</span><span class="score" id="score"></span></div><div class="meter"><div class="fill" id="fill"></div><div class="threshold" title="Decision threshold: 0.5"></div></div><div class="scale"><span>0 · Human-like</span><span>0.5 cutoff</span><span>1 · AI-like</span></div><div class="details" id="details"></div></div>
+</section></div>
+<div class="footer"><div><strong>Your audio stays here.</strong><br>Processed locally, with temporary files deleted after analysis.</div><div><strong>A prediction, not proof.</strong><br>File uploads use the center five seconds. Live mode checks five-second windows. Scores are not confidence percentages.</div></div>
+</main>
+<script>
+const $=id=>document.getElementById(id);
+let blob=null,url=null,recorder=null,stream=null,timer=null,started=0,busy=false,recording=false,requesting=false,systemListening=false;
+function error(message){if(message){$('overlayState').textContent='Access';$('overlayState').title=message;}$('error').textContent=message;$('error').hidden=!message;}
+function resetResult(){ $('result').hidden=true;$('empty').hidden=false;$('empty').classList.remove('busy');$('emptyTitle').textContent='Ready when you are';$('emptyText').textContent='Your prediction will appear here after you analyze a clip.'; }
+function controls(){ $('overlayListen').disabled=busy||recording||requesting;
+
+ $('overlayListen').setAttribute('aria-label',systemListening?'Stop system listening':'Start system listening');
+ document.documentElement.classList.toggle('live',systemListening);
+ $('overlayListen').title=systemListening?'Stop listening':'Listen to system audio';
+ $('systemListen').disabled=busy||recording||requesting;$('systemListen').textContent=systemListening?'Stop system listening':'Listen to system audio';$('analyze').disabled=!blob||busy||recording||requesting||systemListening;$('upload').disabled=busy||recording||requesting||systemListening;$('record').disabled=busy||requesting||systemListening;$('clear').disabled=busy||recording||requesting||systemListening; }
+function setAudio(next,name){if(url)URL.revokeObjectURL(url);blob=next;url=URL.createObjectURL(next);$('filename').textContent=name;$('player').src=url;$('file').hidden=false;resetResult();error('');controls();}
+function select(file){if(!file||busy||recording||requesting||systemListening)return;if(file.size>25*1024*1024){error('File is too large. Maximum size is 25 MB.');return;}setAudio(file,file.name);}
+$('upload').addEventListener('change',e=>{select(e.target.files[0]);e.target.value='';});
+$('drop').addEventListener('dragover',e=>{e.preventDefault();if(!busy&&!recording)$('drop').classList.add('drag');});
+$('drop').addEventListener('dragleave',()=>$('drop').classList.remove('drag'));
+$('drop').addEventListener('drop',e=>{e.preventDefault();$('drop').classList.remove('drag');select(e.dataTransfer.files[0]);});
+$('clear').onclick=()=>{if(url)URL.revokeObjectURL(url);url=null;blob=null;$('player').removeAttribute('src');$('player').load();$('file').hidden=true;error('');resetResult();controls();};
+function releaseMic(){if(stream)stream.getTracks().forEach(t=>t.stop());stream=null;clearInterval(timer);timer=null;recording=false;$('record').classList.remove('recording');$('recordLabel').textContent='Record my voice';controls();}
+$('record').onclick=async()=>{
+ if(recording){recorder.stop();return;}
+ if(!navigator.mediaDevices?.getUserMedia||!window.MediaRecorder){error('Recording is unavailable in this browser. Try Chrome or Safari, or upload an audio file.');return;}
+ requesting=true;controls();error('');$('recordLabel').textContent='Waiting for microphone…';
+ try{
+  stream=await navigator.mediaDevices.getUserMedia({audio:{echoCancellation:false,noiseSuppression:false,autoGainControl:false}});
+  const type=['audio/webm;codecs=opus','audio/mp4','audio/webm'].find(t=>MediaRecorder.isTypeSupported(t));
+  recorder=new MediaRecorder(stream,type?{mimeType:type}:{});const chunks=[];let failed=false;
+  recorder.ondataavailable=e=>{if(e.data.size)chunks.push(e.data);};
+  recorder.onerror=()=>{failed=true;releaseMic();error('Recording failed. Please try again or upload audio.');};
+  recorder.onstop=()=>{const mime=recorder.mimeType;releaseMic();if(!failed&&chunks.length)setAudio(new Blob(chunks,{type:mime}),'Microphone recording');};
+  $('player').pause();resetResult();recorder.start(250);started=Date.now();recording=true;$('record').classList.add('recording');
+  const tick=()=>{const sec=Math.floor((Date.now()-started)/1000);$('recordLabel').textContent=`Stop recording · ${Math.floor(sec/60)}:${String(sec%60).padStart(2,'0')}`;if(sec>=119&&recorder.state==='recording')recorder.stop();};
+  tick();timer=setInterval(tick,250);
+ }catch(e){releaseMic();error(e.name==='NotAllowedError'?'Microphone permission was denied. Allow microphone access for this page, or upload a file.':'Could not access your microphone. Check that a microphone is connected and available.');}
+ finally{requesting=false;controls();}
+};
+$('analyze').onclick=async()=>{
+ if(!blob||busy)return;busy=true;controls();error('');resetResult();$('empty').classList.add('busy');$('emptyTitle').textContent='Listening for synthetic patterns…';$('emptyText').textContent='Analyzing locally on your Mac.';$('analyze').textContent='Analyzing…';
+ try{
+  const response=await fetch('/analyze',{method:'POST',headers:{'Content-Type':'application/octet-stream'},body:blob});const data=await response.json();if(!response.ok)throw new Error(data.error||'Analysis failed.');
+  renderResult(data);
+ }catch(e){resetResult();error(e.message==='Failed to fetch'?'Cannot reach the local detector. Make sure app.py is running.':e.message);}
+ finally{busy=false;$('analyze').innerHTML='Analyze voice <span aria-hidden="true">↗</span>';controls();}
+};
+
+function renderResult(data){
+  $('empty').hidden=true;$('result').hidden=false;const ai=data.prediction==='AI';$('verdict').textContent=ai?'Likely AI-generated':'Likely human';$('verdict').className='verdict '+(ai?'ai':'human');$('resultNote').textContent=ai?'The analyzed speech contains patterns associated with synthetic audio.':'The analyzed speech resembles natural human audio.';
+  $('score').textContent=data.synthetic_score.toFixed(3);$('fill').style.width=(data.synthetic_score*100)+'%';$('fill').style.background=ai?'#c18e56':'#8baf7d';
+  $('details').textContent=`Analyzed ${data.analyzed_start_seconds.toFixed(1)}–${data.analyzed_end_seconds.toFixed(1)}s of ${data.duration_seconds.toFixed(1)}s · ${data.inference_seconds.toFixed(2)}s inference · ${data.model}${data.repeated?' · Short clip repeated to fill five seconds':''}`;
+}
+const systemBridge=window.webkit?.messageHandlers?.systemAudio;
+$('systemControls').hidden=!systemBridge;
+$('systemListen').onclick=()=>{
+ if(systemListening){systemBridge.postMessage('stop');return;}
+ $('player').pause();systemListening=true;resetResult();error('');controls();
+ $('emptyTitle').textContent='Waiting for system audio…';
+ $('emptyText').textContent='Keep only your call playing. Results describe the mixed audio.';
+ systemBridge.postMessage('start');
+};
+let audioHistory=Array(7).fill(0),lastLevelAt=0;
+function paintWaveform(){
+ audioHistory.forEach((value,i)=>{
+  const height=2+value*14;
+  $('waveBar'+i).setAttribute('height',height.toFixed(2));
+  $('waveBar'+i).setAttribute('y',((18-height)/2).toFixed(2));
+ });
+}
+function clearWaveform(){audioHistory.fill(0);lastLevelAt=0;paintWaveform();}
+setInterval(()=>{
+ if(systemListening&&lastLevelAt&&Date.now()-lastLevelAt>250)clearWaveform();
+},100);
+window.onSystemAudioEvent=event=>{
+ if(event.state==='levels'){
+  if(!systemListening)return;
+  for(const value of (event.values||[])){
+   if(!Number.isFinite(value))continue;
+   audioHistory.shift();audioHistory.push(Math.max(0,Math.min(1,value)));
+  }
+  lastLevelAt=Date.now();paintWaveform();return;
+ }
+ document.documentElement.dataset.phase=({starting:'starting',listening:'recording',analyzing:'processing',result:'recording',stopped:'idle',error:'error',warning:'error'})[event.state]||'idle';
+ if(event.state==='stopped'||event.state==='error'||event.state==='starting')clearWaveform();
+ const state=event.state;
+ if(state!=='analyzing')document.documentElement.dataset.verdict='waiting';
+ if(state!=='analyzing'||!['human','ai'].includes(document.documentElement.dataset.verdict))$('overlayState').textContent=({starting:'Starting…',listening:'Listening',analyzing:'Checking…',stopped:'',warning:'Try again',error:'Access'})[state]??'Listening';
+ if(state==='stopped'||state==='error'){systemListening=false;resetResult();}
+ else systemListening=true;
+ if(event.message)$('systemStatus').textContent=event.message;
+ if(state==='starting'||state==='listening'||state==='analyzing'){
+  if(state!=='analyzing')resetResult();
+  $('emptyTitle').textContent=state==='analyzing'?'Analyzing speech…':'Listening to your Mac…';
+  $('emptyText').textContent='Checks five-second windows. Pause other videos or music.';
+ }
+ if(state==='result'){
+  const data=event.result;
+ document.documentElement.dataset.verdict=data.status==='insufficient_speech'?'waiting':data.prediction.toLowerCase();
+ $('overlayState').textContent=data.status==='insufficient_speech'?'Waiting':(data.prediction==='AI'?'AI':'Human');
+  if(data.status==='insufficient_speech'){
+   resetResult();$('emptyTitle').textContent='Waiting for clearer speech…';
+   $('emptyText').textContent='No prediction for this window.';
+   $('systemStatus').textContent='Listening · not enough clear speech in the latest window.';
+  }else{
+   renderResult(data);
+   $('details').textContent='Latest 5-second system-audio window · '+new Date().toLocaleTimeString();
+   $('systemStatus').textContent='Listening · next check in about 5 seconds.';
+  }
+ }
+ if(state==='warning'||state==='error'){resetResult();error(event.message);}
+ else error('');
+ controls();
+};
+
+let expanded=false;
+$('overlayListen').onclick=()=>{if(systemBridge)$('systemListen').click();};
+$('overlayExpand').onclick=()=>{
+ expanded=!expanded;document.documentElement.classList.toggle('expanded',expanded);
+ $('overlayExpand').textContent=expanded?'⌄':'⌃';
+ $('overlayExpand').title=expanded?'Collapse details':'Show details';
+ $('overlayExpand').setAttribute('aria-label',expanded?'Collapse widget':'Expand widget');
+ systemBridge?.postMessage(expanded?'expand':'collapse');
+};
+$('overlayHide').onclick=()=>systemBridge?.postMessage('hide');
+
+window.addEventListener('keydown',e=>{
+ if(e.key==='Escape'&&systemListening){systemBridge?.postMessage('stop');e.preventDefault();}
+ else if(e.key==='Escape'&&expanded){$('overlayExpand').click();e.preventDefault();}
+});
+window.addEventListener('widget-hidden',()=>{if(recorder?.state==='recording')recorder.stop();releaseMic();});
+window.addEventListener('pagehide',()=>{clearWaveform();if(recorder?.state==='recording')recorder.stop();releaseMic();if(url)URL.revokeObjectURL(url);});
+</script></body></html>
